@@ -1,0 +1,91 @@
+make a k!template <your message to describe the template you want or discord categorys & text / voice channels>/ just k!template to make a default template.
+
+eg: k!template gaming-type as a studio
+If not high permissions say --->>> "Sorry but my permission is not able to make the categorys, text channels, etc."
+
+If all pefrmissions and working say --->>> "Creating Categorys..." then edit the message to --->>> "Creating Text Channels" then --->>> "Creating roles" --->>> "Completed!"
+
+If just k!template do
+the text channels / vc, etc to:
+
+|---< ‼️Information >---|
+「📜」Rules
+「📢」Announcements
+「📝」Beside-Notes
+「💱」Change-Logs
+「🖥️」Staff-Applications
+
+|---< 👋 General >---|
+「🗨️」General
+「😂」Memes
+「👋 」Introductions
+「🎊」Birthdays
+「💻」Self-Promotion
+「🐶 」Pet-Reveals
+「🙎」Face-Reveals
+
+|---< ➕Extra >---|
+「🔢」Counting
+「😈」Spam
+「🎟️」Tickets
+「😭」Mental-Health-Zone
+「🗣️」Voice-Reveal
+
+|---< 🔈Voice Chat >---|
+「🔊」Voice Chat 1
+「🔊」Voice Chat 2
+「🎮」Gaming
+「🎭」Theatre
+「🔊」Staff Voice Chat
+
+|---< 💼 Staff Only >---|
+「📢」Staff-Announcements
+「💼」All-Staff-Chat
+「💼」Moderator-Chat
+「💼」Administrator-Chat
+「💼」Manager-Plus-Chat
+「👀」Staff-Logs|---< ‼️Information >---|
+「📜」Rules
+「📢」Announcements
+「📝」Beside-Notes
+「💱」Change-Logs
+「🖥️」Staff-Applications
+
+|---< 👋 General >---|
+「🗨️」General
+「😂」Memes
+「👋 」Introductions
+「🎊」Birthdays
+「💻」Self-Promotion
+「🐶 」Pet-Reveals
+「🙎」Face-Reveals
+
+|---< ➕Extra >---|
+「🔢」Counting
+「😈」Spam
+「🎟️」Tickets
+「😭」Mental-Health-Zone
+「🗣️」Voice-Reveal
+
+|---< 🔈Voice Chat >---|
+「🔊」Voice Chat 1
+「🔊」Voice Chat 2
+「🎮」Gaming
+「🎭」Theatre
+「🔊」Staff Voice Chat
+
+|---< 💼 Staff Only >---|
+「📢」Staff-Announcements
+「💼」All-Staff-Chat
+「💼」Moderator-Chat
+「💼」Administrator-Chat
+「💼」Manager-Plus-Chat
+「👀」Staff-Logs
+
+and make roles to:
+Owner --->> Administrator Permissions
+Co-Owner --->> Administrator Permissions
+Manager --->> Administrator Permissions
+Administrator --->> Administrator Permissions
+Moderator --->> Moderation permissions only (not administrator permissions)
+Member --->> No Permission

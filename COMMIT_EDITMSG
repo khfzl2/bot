@@ -1,0 +1,15 @@
+Assistant checkpoint: Enhanced deleteall to nuke everything in server
+
+Assistant generated file changes:
+- bot/cogs/admin.py: Enhanced deleteall command to delete roles, categories, emojis, and all channels
+Enhanced deleteall command to delete roles, categories, emojis, and all channels
+Enhanced deleteall command to delete roles, categories, emojis, and all channels
+
+---
+
+User prompt:
+
+Hey there, can u just fix k!deleteall for it to delete everything like text channels, roles, voice chats, categorys, etc
+
+Replit-Commit-Author: Assistant
+Replit-Commit-Session-Id: 89f65932-4e9d-460f-91a4-dd2751fa59a5

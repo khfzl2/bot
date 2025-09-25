@@ -1,0 +1,2034 @@
+2025-08-18 17:07:40,694 - __main__ - ERROR - ERROR: Discord token not found in environment variables!
+2025-08-18 17:07:40,694 - __main__ - ERROR - Please set DISCORD_TOKEN environment variable
+2025-08-18 17:07:40,694 - __main__ - ERROR - Example: export DISCORD_TOKEN='your_bot_token_here'
+2025-08-18 17:07:40,694 - __main__ - INFO - Bot shutdown complete
+2025-08-18 17:08:03,240 - __main__ - INFO - Starting Discord bot with enhanced features...
+2025-08-18 17:08:03,751 - bot.bot - INFO - Initializing database...
+2025-08-18 17:08:03,814 - bot.database - INFO - All database tables created successfully
+2025-08-18 17:08:03,818 - bot.database - INFO - Database initialized successfully
+2025-08-18 17:08:03,818 - bot.bot - INFO - Loading cogs...
+2025-08-18 17:08:03,826 - bot.bot - INFO - Loaded cog: template
+2025-08-18 17:08:03,826 - bot.bot - INFO - Bot setup complete!
+2025-08-18 17:08:04,200 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 1478de72ee2442a8e2ad02623178f75c).
+2025-08-18 17:08:06,402 - bot.bot - INFO - Bot is ready! Logged in as CONNECT KH2#9788
+2025-08-18 17:08:06,402 - bot.bot - INFO - Bot ID: 1401261269432144045
+2025-08-18 17:08:06,402 - bot.bot - INFO - Servers: 8
+2025-08-18 17:08:06,826 - bot.bot - INFO - Synced 2 slash commands
+2025-08-18 17:08:06,827 - bot.bot - INFO - Connected to: Alfie's club (ID: 1383871692887294063)
+2025-08-18 17:08:06,827 - bot.bot - INFO - Connected to: SMC: Kawaii Vibes #100Members (ID: 1397555474563334267)
+2025-08-18 17:08:06,827 - bot.bot - INFO - Connected to: Bruzz Only! (ID: 1399461383468351508)
+2025-08-18 17:08:06,827 - bot.bot - INFO - Connected to: Skijibidi Kingdom: New Rise (ID: 1401620741979504640)
+2025-08-18 17:08:06,827 - bot.bot - INFO - Connected to: Boys Only Server (ID: 1402536865130876928)
+2025-08-18 17:08:06,827 - bot.bot - INFO - Connected to: ALK Studios (ID: 1406705191809716354)
+2025-08-18 17:08:06,827 - bot.bot - INFO - Connected to: Kawaii Squad OMG (ID: 1407011728058744963)
+2025-08-18 17:08:06,827 - bot.bot - INFO - Connected to: The Galaxy Of Servers! (ID: 1407018461141536778)
+2025-08-18 17:08:08,502 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:08:10,708 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:08:13,721 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:08:16,881 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:08:19,238 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:08:29,916 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:08:30,110 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:08:36,243 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:08:36,497 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:08:46,051 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:08:59,494 - __main__ - INFO - Starting Discord bot with enhanced features...
+2025-08-18 17:08:59,882 - bot.bot - INFO - Initializing database...
+2025-08-18 17:08:59,884 - bot.database - INFO - All database tables created successfully
+2025-08-18 17:08:59,885 - bot.database - INFO - Database initialized successfully
+2025-08-18 17:08:59,885 - bot.bot - INFO - Loading cogs...
+2025-08-18 17:08:59,887 - bot.bot - INFO - Loaded cog: template
+2025-08-18 17:08:59,887 - bot.bot - INFO - Bot setup complete!
+2025-08-18 17:09:00,261 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 921478c00105b18a1c12fa037cc0e1cc).
+2025-08-18 17:09:02,358 - bot.bot - INFO - Bot is ready! Logged in as CONNECT KH2#9788
+2025-08-18 17:09:02,360 - bot.bot - INFO - Bot ID: 1401261269432144045
+2025-08-18 17:09:02,361 - bot.bot - INFO - Servers: 8
+2025-08-18 17:09:02,692 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:09:02,695 - bot.bot - INFO - Synced 2 slash commands
+2025-08-18 17:09:02,695 - bot.bot - INFO - Connected to: Alfie's club (ID: 1383871692887294063)
+2025-08-18 17:09:02,695 - bot.bot - INFO - Connected to: SMC: Kawaii Vibes #100Members (ID: 1397555474563334267)
+2025-08-18 17:09:02,695 - bot.bot - INFO - Connected to: Bruzz Only! (ID: 1399461383468351508)
+2025-08-18 17:09:02,695 - bot.bot - INFO - Connected to: Skijibidi Kingdom: New Rise (ID: 1401620741979504640)
+2025-08-18 17:09:02,695 - bot.bot - INFO - Connected to: Boys Only Server (ID: 1402536865130876928)
+2025-08-18 17:09:02,696 - bot.bot - INFO - Connected to: ALK Studios (ID: 1406705191809716354)
+2025-08-18 17:09:02,696 - bot.bot - INFO - Connected to: Kawaii Squad OMG (ID: 1407011728058744963)
+2025-08-18 17:09:02,696 - bot.bot - INFO - Connected to: The Galaxy Of Servers! (ID: 1407018461141536778)
+2025-08-18 17:09:06,975 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:09:15,468 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:09:16,923 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:09:22,548 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:09:25,732 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:09:27,690 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:09:28,087 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:09:38,527 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:09:47,633 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:09:49,786 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:09:56,503 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:09:58,499 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:10:05,389 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:10:07,079 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:10:07,500 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:10:14,732 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:10:21,353 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:10:23,048 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:10:23,359 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:10:24,564 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:10:27,232 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:10:32,484 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:10:36,586 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:10:38,099 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:10:56,302 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:11:04,775 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:11:10,406 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:11:14,546 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:11:15,754 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:11:17,161 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:11:19,350 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:11:20,374 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:11:20,723 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:11:21,912 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:11:26,375 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:11:26,596 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:11:27,848 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:11:31,045 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:11:33,619 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:11:38,633 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:11:41,057 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:11:42,828 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:11:43,541 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:11:49,583 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:12:01,445 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:12:02,667 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:12:10,740 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:12:13,840 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:12:14,647 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1411, in on_message
+    await self.process_commands(message)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1406, in process_commands
+    ctx = await self.get_context(message)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/commands/bot.py", line 1305, in get_context
+    prefix = await self.get_prefix(origin)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DiscordBot.get_prefix() missing 1 required positional argument: 'message'
+2025-08-18 17:12:17,142 - __main__ - INFO - Starting Discord bot with enhanced features...
+2025-08-18 17:12:17,595 - bot.bot - INFO - Initializing database...
+2025-08-18 17:12:17,596 - bot.database - INFO - All database tables created successfully
+2025-08-18 17:12:17,597 - bot.database - INFO - Database initialized successfully
+2025-08-18 17:12:17,597 - bot.bot - INFO - Loading cogs...
+2025-08-18 17:12:17,598 - bot.bot - INFO - Loaded cog: template
+2025-08-18 17:12:17,598 - bot.bot - INFO - Bot setup complete!
+2025-08-18 17:12:17,943 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 21fd08bc70b3132db677e2a43904b24f).
+2025-08-18 17:12:20,035 - bot.bot - INFO - Bot is ready! Logged in as CONNECT KH2#9788
+2025-08-18 17:12:20,036 - bot.bot - INFO - Bot ID: 1401261269432144045
+2025-08-18 17:12:20,036 - bot.bot - INFO - Servers: 8
+2025-08-18 17:12:20,359 - bot.bot - INFO - Synced 2 slash commands
+2025-08-18 17:12:20,359 - bot.bot - INFO - Connected to: Alfie's club (ID: 1383871692887294063)
+2025-08-18 17:12:20,360 - bot.bot - INFO - Connected to: SMC: Kawaii Vibes #100Members (ID: 1397555474563334267)
+2025-08-18 17:12:20,360 - bot.bot - INFO - Connected to: Bruzz Only! (ID: 1399461383468351508)
+2025-08-18 17:12:20,361 - bot.bot - INFO - Connected to: Skijibidi Kingdom: New Rise (ID: 1401620741979504640)
+2025-08-18 17:12:20,361 - bot.bot - INFO - Connected to: Boys Only Server (ID: 1402536865130876928)
+2025-08-18 17:12:20,361 - bot.bot - INFO - Connected to: ALK Studios (ID: 1406705191809716354)
+2025-08-18 17:12:20,361 - bot.bot - INFO - Connected to: Kawaii Squad OMG (ID: 1407011728058744963)
+2025-08-18 17:12:20,361 - bot.bot - INFO - Connected to: The Galaxy Of Servers! (ID: 1407018461141536778)
+2025-08-18 17:17:48,217 - __main__ - INFO - Starting Discord bot with enhanced features...
+2025-08-18 17:17:48,742 - bot.bot - INFO - Initializing database...
+2025-08-18 17:17:48,743 - bot.database - INFO - All database tables created successfully
+2025-08-18 17:17:48,743 - bot.database - INFO - Database initialized successfully
+2025-08-18 17:17:48,743 - bot.bot - INFO - Loading cogs...
+2025-08-18 17:17:48,745 - bot.bot - INFO - Loaded cog: template
+2025-08-18 17:17:48,750 - bot.bot - INFO - Loaded cog: moderation
+2025-08-18 17:17:48,754 - bot.bot - INFO - Loaded cog: general
+2025-08-18 17:17:48,756 - bot.bot - INFO - Loaded cog: afk
+2025-08-18 17:17:48,773 - bot.bot - INFO - Loaded cog: admin
+2025-08-18 17:17:48,775 - bot.bot - INFO - Loaded cog: verification
+2025-08-18 17:17:49,232 - bot.bot - INFO - Loaded cog: music
+2025-08-18 17:17:49,233 - bot.bot - INFO - Bot setup complete!
+2025-08-18 17:17:49,909 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: cc7d2f3013c4a320b8c3dc922eb8c772).
+2025-08-18 17:17:52,009 - bot.bot - INFO - Bot is ready! Logged in as CONNECT KH2#9788
+2025-08-18 17:17:52,010 - bot.bot - INFO - Bot ID: 1401261269432144045
+2025-08-18 17:17:52,010 - bot.bot - INFO - Servers: 8
+2025-08-18 17:17:52,257 - bot.bot - INFO - Synced 2 slash commands
+2025-08-18 17:17:52,258 - bot.bot - INFO - Connected to: Alfie's club (ID: 1383871692887294063)
+2025-08-18 17:17:52,258 - bot.bot - INFO - Connected to: SMC: Kawaii Vibes #100Members (ID: 1397555474563334267)
+2025-08-18 17:17:52,259 - bot.bot - INFO - Connected to: Bruzz Only! (ID: 1399461383468351508)
+2025-08-18 17:17:52,259 - bot.bot - INFO - Connected to: Skijibidi Kingdom: New Rise (ID: 1401620741979504640)
+2025-08-18 17:17:52,259 - bot.bot - INFO - Connected to: Boys Only Server (ID: 1402536865130876928)
+2025-08-18 17:17:52,259 - bot.bot - INFO - Connected to: ALK Studios (ID: 1406705191809716354)
+2025-08-18 17:17:52,259 - bot.bot - INFO - Connected to: Kawaii Squad OMG (ID: 1407011728058744963)
+2025-08-18 17:17:52,260 - bot.bot - INFO - Connected to: The Galaxy Of Servers! (ID: 1407018461141536778)
+2025-08-18 17:25:20,776 - __main__ - INFO - Starting Discord bot with enhanced features...
+2025-08-18 17:25:21,608 - bot.bot - INFO - Initializing database...
+2025-08-18 17:25:21,610 - bot.database - INFO - All database tables created successfully
+2025-08-18 17:25:21,610 - bot.database - INFO - Database initialized successfully
+2025-08-18 17:25:21,610 - bot.bot - INFO - Loading cogs...
+2025-08-18 17:25:21,612 - bot.bot - INFO - Loaded cog: template
+2025-08-18 17:25:21,625 - bot.bot - INFO - Loaded cog: moderation
+2025-08-18 17:25:21,635 - bot.bot - INFO - Loaded cog: general
+2025-08-18 17:25:21,636 - bot.bot - INFO - Loaded cog: afk
+2025-08-18 17:25:21,660 - bot.bot - INFO - Loaded cog: admin
+2025-08-18 17:25:21,662 - bot.bot - INFO - Loaded cog: verification
+2025-08-18 17:25:21,906 - bot.bot - INFO - Loaded cog: music
+2025-08-18 17:25:21,907 - bot.bot - INFO - Bot setup complete!
+2025-08-18 17:25:22,321 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 79dfb3518a802f390d60c7a888c313fa).
+2025-08-18 17:25:24,421 - bot.bot - INFO - Bot is ready! Logged in as CONNECT KH2#9788
+2025-08-18 17:25:24,422 - bot.bot - INFO - Bot ID: 1401261269432144045
+2025-08-18 17:25:24,422 - bot.bot - INFO - Servers: 8
+2025-08-18 17:25:24,684 - bot.bot - INFO - Synced 2 slash commands
+2025-08-18 17:25:24,685 - bot.bot - INFO - Connected to: Alfie's club (ID: 1383871692887294063)
+2025-08-18 17:25:24,685 - bot.bot - INFO - Connected to: SMC: Kawaii Vibes #100Members (ID: 1397555474563334267)
+2025-08-18 17:25:24,685 - bot.bot - INFO - Connected to: Bruzz Only! (ID: 1399461383468351508)
+2025-08-18 17:25:24,685 - bot.bot - INFO - Connected to: Skijibidi Kingdom: New Rise (ID: 1401620741979504640)
+2025-08-18 17:25:24,685 - bot.bot - INFO - Connected to: Boys Only Server (ID: 1402536865130876928)
+2025-08-18 17:25:24,685 - bot.bot - INFO - Connected to: ALK Studios (ID: 1406705191809716354)
+2025-08-18 17:25:24,685 - bot.bot - INFO - Connected to: Kawaii Squad OMG (ID: 1407011728058744963)
+2025-08-18 17:25:24,685 - bot.bot - INFO - Connected to: The Galaxy Of Servers! (ID: 1407018461141536778)
+2025-08-18 17:27:28,709 - __main__ - INFO - Starting Discord bot with enhanced features...
+2025-08-18 17:27:29,161 - bot.bot - INFO - Initializing database...
+2025-08-18 17:27:29,164 - bot.database - INFO - All database tables created successfully
+2025-08-18 17:27:29,164 - bot.database - INFO - Database initialized successfully
+2025-08-18 17:27:29,165 - bot.bot - INFO - Loading cogs...
+2025-08-18 17:27:29,167 - bot.bot - INFO - Loaded cog: template
+2025-08-18 17:27:29,174 - bot.bot - INFO - Loaded cog: moderation
+2025-08-18 17:27:29,176 - bot.bot - INFO - Loaded cog: general
+2025-08-18 17:27:29,177 - bot.bot - INFO - Loaded cog: afk
+2025-08-18 17:27:29,195 - bot.bot - INFO - Loaded cog: admin
+2025-08-18 17:27:29,197 - bot.bot - INFO - Loaded cog: verification
+2025-08-18 17:27:29,354 - bot.bot - INFO - Loaded cog: music
+2025-08-18 17:27:29,354 - bot.bot - INFO - Bot setup complete!
+2025-08-18 17:27:29,693 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 5c60c425a05bc0b5398b04303ae6493c).
+2025-08-18 17:27:31,792 - bot.bot - INFO - Bot is ready! Logged in as CONNECT KH2#9788
+2025-08-18 17:27:31,792 - bot.bot - INFO - Bot ID: 1401261269432144045
+2025-08-18 17:27:31,793 - bot.bot - INFO - Servers: 8
+2025-08-18 17:27:32,009 - bot.bot - INFO - Synced 2 slash commands
+2025-08-18 17:27:32,009 - bot.bot - INFO - Connected to: Alfie's club (ID: 1383871692887294063)
+2025-08-18 17:27:32,009 - bot.bot - INFO - Connected to: SMC: Kawaii Vibes #100Members (ID: 1397555474563334267)
+2025-08-18 17:27:32,009 - bot.bot - INFO - Connected to: Bruzz Only! (ID: 1399461383468351508)
+2025-08-18 17:27:32,009 - bot.bot - INFO - Connected to: Skijibidi Kingdom: New Rise (ID: 1401620741979504640)
+2025-08-18 17:27:32,009 - bot.bot - INFO - Connected to: Boys Only Server (ID: 1402536865130876928)
+2025-08-18 17:27:32,009 - bot.bot - INFO - Connected to: ALK Studios (ID: 1406705191809716354)
+2025-08-18 17:27:32,009 - bot.bot - INFO - Connected to: Kawaii Squad OMG (ID: 1407011728058744963)
+2025-08-18 17:27:32,009 - bot.bot - INFO - Connected to: The Galaxy Of Servers! (ID: 1407018461141536778)
+2025-08-18 17:30:25,358 - __main__ - INFO - Starting Discord bot with enhanced features...
+2025-08-18 17:30:25,967 - bot.bot - INFO - Initializing database...
+2025-08-18 17:30:25,969 - bot.database - INFO - All database tables created successfully
+2025-08-18 17:30:25,969 - bot.database - INFO - Database initialized successfully
+2025-08-18 17:30:25,969 - bot.bot - INFO - Loading cogs...
+2025-08-18 17:30:25,971 - bot.bot - INFO - Loaded cog: template
+2025-08-18 17:30:25,980 - bot.bot - INFO - Loaded cog: moderation
+2025-08-18 17:30:25,981 - bot.bot - INFO - Loaded cog: general
+2025-08-18 17:30:25,982 - bot.bot - INFO - Loaded cog: afk
+2025-08-18 17:30:26,004 - bot.bot - INFO - Loaded cog: admin
+2025-08-18 17:30:26,005 - bot.bot - INFO - Loaded cog: verification
+2025-08-18 17:30:26,143 - bot.bot - INFO - Loaded cog: music
+2025-08-18 17:30:26,143 - bot.bot - INFO - Bot setup complete!
+2025-08-18 17:30:26,495 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: e9322e2fd8832b641879cb90128ffe0f).
+2025-08-18 17:30:28,597 - bot.bot - INFO - Bot is ready! Logged in as CONNECT KH2#9788
+2025-08-18 17:30:28,597 - bot.bot - INFO - Bot ID: 1401261269432144045
+2025-08-18 17:30:28,598 - bot.bot - INFO - Servers: 8
+2025-08-18 17:30:28,841 - bot.bot - INFO - Synced 2 slash commands
+2025-08-18 17:30:28,841 - bot.bot - INFO - Connected to: Alfie's club (ID: 1383871692887294063)
+2025-08-18 17:30:28,841 - bot.bot - INFO - Connected to: SMC: Kawaii Vibes #100Members (ID: 1397555474563334267)
+2025-08-18 17:30:28,841 - bot.bot - INFO - Connected to: Bruzz Only! (ID: 1399461383468351508)
+2025-08-18 17:30:28,842 - bot.bot - INFO - Connected to: Skijibidi Kingdom: New Rise (ID: 1401620741979504640)
+2025-08-18 17:30:28,842 - bot.bot - INFO - Connected to: Boys Only Server (ID: 1402536865130876928)
+2025-08-18 17:30:28,842 - bot.bot - INFO - Connected to: ALK Studios (ID: 1406705191809716354)
+2025-08-18 17:30:28,842 - bot.bot - INFO - Connected to: Kawaii Squad OMG (ID: 1407011728058744963)
+2025-08-18 17:30:28,842 - bot.bot - INFO - Connected to: The Galaxy Of Servers! (ID: 1407018461141536778)
+2025-08-18 17:32:54,068 - __main__ - INFO - Starting Discord bot with enhanced features...
+2025-08-18 17:32:54,468 - bot.bot - INFO - Initializing database...
+2025-08-18 17:32:54,471 - bot.database - INFO - All database tables created successfully
+2025-08-18 17:32:54,471 - bot.database - INFO - Database initialized successfully
+2025-08-18 17:32:54,471 - bot.bot - INFO - Loading cogs...
+2025-08-18 17:32:54,473 - bot.bot - INFO - Loaded cog: template
+2025-08-18 17:32:54,479 - bot.bot - INFO - Loaded cog: moderation
+2025-08-18 17:32:54,481 - bot.bot - INFO - Loaded cog: general
+2025-08-18 17:32:54,482 - bot.bot - INFO - Loaded cog: afk
+2025-08-18 17:32:54,496 - bot.bot - INFO - Loaded cog: admin
+2025-08-18 17:32:54,497 - bot.bot - INFO - Loaded cog: verification
+2025-08-18 17:32:54,643 - bot.bot - INFO - Loaded cog: music
+2025-08-18 17:32:54,643 - bot.bot - INFO - Bot setup complete!
+2025-08-18 17:32:54,918 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 1e3ff058944cbeede8211a62915cd75a).
+2025-08-18 17:32:57,013 - bot.bot - INFO - Bot is ready! Logged in as CONNECT KH2#9788
+2025-08-18 17:32:57,014 - bot.bot - INFO - Bot ID: 1401261269432144045
+2025-08-18 17:32:57,014 - bot.bot - INFO - Servers: 8
+2025-08-18 17:32:57,251 - bot.bot - INFO - Synced 2 slash commands
+2025-08-18 17:32:57,252 - bot.bot - INFO - Connected to: Alfie's club (ID: 1383871692887294063)
+2025-08-18 17:32:57,252 - bot.bot - INFO - Connected to: SMC: Kawaii Vibes #100Members (ID: 1397555474563334267)
+2025-08-18 17:32:57,252 - bot.bot - INFO - Connected to: Bruzz Only! (ID: 1399461383468351508)
+2025-08-18 17:32:57,252 - bot.bot - INFO - Connected to: Skijibidi Kingdom: New Rise (ID: 1401620741979504640)
+2025-08-18 17:32:57,253 - bot.bot - INFO - Connected to: Boys Only Server (ID: 1402536865130876928)
+2025-08-18 17:32:57,253 - bot.bot - INFO - Connected to: ALK Studios (ID: 1406705191809716354)
+2025-08-18 17:32:57,253 - bot.bot - INFO - Connected to: Kawaii Squad OMG (ID: 1407011728058744963)
+2025-08-18 17:32:57,253 - bot.bot - INFO - Connected to: The Galaxy Of Servers! (ID: 1407018461141536778)
+2025-08-18 17:34:27,514 - __main__ - INFO - Starting Discord bot with enhanced features...
+2025-08-18 17:34:28,381 - bot.bot - INFO - Initializing database...
+2025-08-18 17:34:28,383 - bot.database - INFO - All database tables created successfully
+2025-08-18 17:34:28,383 - bot.database - INFO - Database initialized successfully
+2025-08-18 17:34:28,383 - bot.bot - INFO - Loading cogs...
+2025-08-18 17:34:28,386 - bot.bot - INFO - Loaded cog: template
+2025-08-18 17:34:28,393 - bot.bot - INFO - Loaded cog: moderation
+2025-08-18 17:34:28,395 - bot.bot - INFO - Loaded cog: general
+2025-08-18 17:34:28,396 - bot.bot - INFO - Loaded cog: afk
+2025-08-18 17:34:28,410 - bot.bot - INFO - Loaded cog: admin
+2025-08-18 17:34:28,411 - bot.bot - INFO - Loaded cog: verification
+2025-08-18 17:34:28,565 - bot.bot - INFO - Loaded cog: music
+2025-08-18 17:34:28,566 - bot.bot - INFO - Bot setup complete!
+2025-08-18 17:34:28,891 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 1bd77b8dd35324497d289267cab98e9b).
+2025-08-18 17:34:30,985 - bot.bot - INFO - Bot is ready! Logged in as CONNECT KH2#9788
+2025-08-18 17:34:30,985 - bot.bot - INFO - Bot ID: 1401261269432144045
+2025-08-18 17:34:30,985 - bot.bot - INFO - Servers: 8
+2025-08-18 17:34:31,395 - bot.bot - INFO - Synced 2 slash commands
+2025-08-18 17:34:31,396 - bot.bot - INFO - Connected to: Alfie's club (ID: 1383871692887294063)
+2025-08-18 17:34:31,396 - bot.bot - INFO - Connected to: SMC: Kawaii Vibes #100Members (ID: 1397555474563334267)
+2025-08-18 17:34:31,396 - bot.bot - INFO - Connected to: Bruzz Only! (ID: 1399461383468351508)
+2025-08-18 17:34:31,396 - bot.bot - INFO - Connected to: Skijibidi Kingdom: New Rise (ID: 1401620741979504640)
+2025-08-18 17:34:31,396 - bot.bot - INFO - Connected to: Boys Only Server (ID: 1402536865130876928)
+2025-08-18 17:34:31,396 - bot.bot - INFO - Connected to: ALK Studios (ID: 1406705191809716354)
+2025-08-18 17:34:31,396 - bot.bot - INFO - Connected to: Kawaii Squad OMG (ID: 1407011728058744963)
+2025-08-18 17:34:31,396 - bot.bot - INFO - Connected to: The Galaxy Of Servers! (ID: 1407018461141536778)
+2025-08-18 18:46:49,197 - __main__ - INFO - Starting Discord bot with enhanced features...
+2025-08-18 18:46:49,766 - bot.bot - INFO - Initializing database...
+2025-08-18 18:46:49,768 - bot.database - INFO - All database tables created successfully
+2025-08-18 18:46:49,769 - bot.database - INFO - Database initialized successfully
+2025-08-18 18:46:49,769 - bot.bot - INFO - Loading cogs...
+2025-08-18 18:46:49,796 - bot.bot - INFO - Loaded cog: template
+2025-08-18 18:46:49,799 - bot.bot - INFO - Loaded cog: moderation
+2025-08-18 18:46:49,802 - bot.bot - INFO - Loaded cog: general
+2025-08-18 18:46:49,803 - bot.bot - INFO - Loaded cog: afk
+2025-08-18 18:46:49,848 - bot.bot - INFO - Loaded cog: admin
+2025-08-18 18:46:49,850 - bot.bot - INFO - Loaded cog: verification
+2025-08-18 18:46:50,092 - bot.bot - INFO - Loaded cog: music
+2025-08-18 18:46:50,093 - bot.bot - INFO - Bot setup complete!
+2025-08-18 18:46:50,632 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 9205d15c632b4d3ca726b9e9f81ce1d1).
+2025-08-18 18:46:52,761 - bot.bot - INFO - Bot is ready! Logged in as CONNECT KH2#9788
+2025-08-18 18:46:52,762 - bot.bot - INFO - Bot ID: 1401261269432144045
+2025-08-18 18:46:52,762 - bot.bot - INFO - Servers: 8
+2025-08-18 18:46:53,163 - bot.bot - INFO - Synced 2 slash commands
+2025-08-18 18:46:53,163 - bot.bot - INFO - Connected to: Alfie's club (ID: 1383871692887294063)
+2025-08-18 18:46:53,163 - bot.bot - INFO - Connected to: SMC: Kawaii Vibes #100Members (ID: 1397555474563334267)
+2025-08-18 18:46:53,164 - bot.bot - INFO - Connected to: Bruzz Only! (ID: 1399461383468351508)
+2025-08-18 18:46:53,164 - bot.bot - INFO - Connected to: Skijibidi Kingdom: New Rise (ID: 1401620741979504640)
+2025-08-18 18:46:53,164 - bot.bot - INFO - Connected to: Boys Only Server (ID: 1402536865130876928)
+2025-08-18 18:46:53,164 - bot.bot - INFO - Connected to: ALK Studios (ID: 1406705191809716354)
+2025-08-18 18:46:53,164 - bot.bot - INFO - Connected to: Kawaii Squad OMG (ID: 1407011728058744963)
+2025-08-18 18:46:53,164 - bot.bot - INFO - Connected to: The Galaxy Servers! (ID: 1407018461141536778)
+2025-08-18 20:57:11,911 - discord.gateway - INFO - Shard ID None has successfully RESUMED session 9205d15c632b4d3ca726b9e9f81ce1d1.
+2025-08-18 22:34:56,259 - discord.gateway - INFO - Shard ID None has successfully RESUMED session 9205d15c632b4d3ca726b9e9f81ce1d1.
+2025-08-19 01:18:43,307 - discord.gateway - INFO - Shard ID None has successfully RESUMED session 9205d15c632b4d3ca726b9e9f81ce1d1.
+2025-08-19 09:56:06,036 - __main__ - INFO - Starting Discord bot with enhanced features...
+2025-08-19 09:56:06,758 - bot.bot - INFO - Initializing database...
+2025-08-19 09:56:06,760 - bot.database - INFO - All database tables created successfully
+2025-08-19 09:56:06,760 - bot.database - INFO - Database initialized successfully
+2025-08-19 09:56:06,760 - bot.bot - INFO - Loading cogs...
+2025-08-19 09:56:06,763 - bot.bot - INFO - Loaded cog: template
+2025-08-19 09:56:06,767 - bot.bot - INFO - Loaded cog: moderation
+2025-08-19 09:56:06,785 - bot.bot - INFO - Loaded cog: general
+2025-08-19 09:56:06,786 - bot.bot - INFO - Loaded cog: afk
+2025-08-19 09:56:06,788 - bot.bot - INFO - Loaded cog: admin
+2025-08-19 09:56:06,790 - bot.bot - INFO - Loaded cog: verification
+2025-08-19 09:56:07,090 - bot.bot - INFO - Loaded cog: music
+2025-08-19 09:56:07,090 - bot.bot - INFO - Bot setup complete!
+2025-08-19 09:56:07,474 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: dd027d778d2d980f1289ed5bead7f966).
+2025-08-19 09:56:09,567 - bot.bot - INFO - Bot is ready! Logged in as CONNECT KH2#9788
+2025-08-19 09:56:09,567 - bot.bot - INFO - Bot ID: 1401261269432144045
+2025-08-19 09:56:09,569 - bot.bot - INFO - Servers: 8
+2025-08-19 09:56:09,838 - bot.bot - INFO - Synced 2 slash commands
+2025-08-19 09:56:09,839 - bot.bot - INFO - Connected to: Alfie's club (ID: 1383871692887294063)
+2025-08-19 09:56:09,839 - bot.bot - INFO - Connected to: Silly Memes Club (ID: 1397555474563334267)
+2025-08-19 09:56:09,839 - bot.bot - INFO - Connected to: Bruzz Only! (ID: 1399461383468351508)
+2025-08-19 09:56:09,839 - bot.bot - INFO - Connected to: Skijibidi Kingdom: New Rise (ID: 1401620741979504640)
+2025-08-19 09:56:09,839 - bot.bot - INFO - Connected to: Boys Only Server (ID: 1402536865130876928)
+2025-08-19 09:56:09,839 - bot.bot - INFO - Connected to: ALK Studios (ID: 1406705191809716354)
+2025-08-19 09:56:09,840 - bot.bot - INFO - Connected to: Kawaii Squad OMG (ID: 1407011728058744963)
+2025-08-19 09:56:09,840 - bot.bot - INFO - Connected to: The Galaxy Servers! (ID: 1407018461141536778)
+2025-08-19 10:00:29,487 - bot.cogs.afk - ERROR - Error in AFK message handler: 'NoneType' object has no attribute 'id'
+2025-08-19 10:02:25,780 - __main__ - INFO - Starting Discord bot with enhanced features...
+2025-08-19 10:02:26,201 - bot.bot - INFO - Initializing database...
+2025-08-19 10:02:26,202 - bot.database - INFO - All database tables created successfully
+2025-08-19 10:02:26,202 - bot.database - INFO - Database initialized successfully
+2025-08-19 10:02:26,203 - bot.bot - INFO - Loading cogs...
+2025-08-19 10:02:26,206 - bot.bot - INFO - Loaded cog: template
+2025-08-19 10:02:26,210 - bot.bot - INFO - Loaded cog: moderation
+2025-08-19 10:02:26,212 - bot.bot - INFO - Loaded cog: general
+2025-08-19 10:02:26,212 - bot.bot - INFO - Loaded cog: afk
+2025-08-19 10:02:26,229 - bot.bot - INFO - Loaded cog: admin
+2025-08-19 10:02:26,230 - bot.bot - INFO - Loaded cog: verification
+2025-08-19 10:02:26,394 - bot.bot - INFO - Loaded cog: music
+2025-08-19 10:02:26,394 - bot.bot - INFO - Bot setup complete!
+2025-08-19 10:02:26,738 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: ba9654a6622175ab23df9d59cb5086b4).
+2025-08-19 10:02:28,849 - bot.bot - INFO - Bot is ready! Logged in as CONNECT KH2#9788
+2025-08-19 10:02:28,850 - bot.bot - INFO - Bot ID: 1401261269432144045
+2025-08-19 10:02:28,850 - bot.bot - INFO - Servers: 8
+2025-08-19 10:02:29,098 - bot.bot - INFO - Synced 2 slash commands
+2025-08-19 10:02:29,098 - bot.bot - INFO - Connected to: Alfie's club (ID: 1383871692887294063)
+2025-08-19 10:02:29,098 - bot.bot - INFO - Connected to: Silly Memes Club (ID: 1397555474563334267)
+2025-08-19 10:02:29,099 - bot.bot - INFO - Connected to: Bruzz Only! (ID: 1399461383468351508)
+2025-08-19 10:02:29,099 - bot.bot - INFO - Connected to: Skijibidi Kingdom: New Rise (ID: 1401620741979504640)
+2025-08-19 10:02:29,099 - bot.bot - INFO - Connected to: Boys Only Server (ID: 1402536865130876928)
+2025-08-19 10:02:29,099 - bot.bot - INFO - Connected to: ALK Studios (ID: 1406705191809716354)
+2025-08-19 10:02:29,099 - bot.bot - INFO - Connected to: Kawaii Squad OMG (ID: 1407011728058744963)
+2025-08-19 10:02:29,099 - bot.bot - INFO - Connected to: The Galaxy Servers! (ID: 1407018461141536778)
+2025-08-19 10:03:58,453 - __main__ - ERROR - ERROR: Discord token not found in environment variables!
+2025-08-19 10:03:58,453 - __main__ - ERROR - Please set DISCORD_TOKEN environment variable
+2025-08-19 10:03:58,453 - __main__ - ERROR - Example: export DISCORD_TOKEN='your_bot_token_here'
+2025-08-19 10:03:58,453 - __main__ - INFO - Bot shutdown complete
+2025-08-19 10:04:16,278 - __main__ - INFO - Starting Discord bot with enhanced features...
+2025-08-19 10:04:16,720 - bot.bot - INFO - Initializing database...
+2025-08-19 10:04:16,721 - bot.database - INFO - All database tables created successfully
+2025-08-19 10:04:16,722 - bot.database - INFO - Database initialized successfully
+2025-08-19 10:04:16,722 - bot.bot - INFO - Loading cogs...
+2025-08-19 10:04:16,745 - bot.bot - INFO - Loaded cog: template
+2025-08-19 10:04:16,747 - bot.bot - INFO - Loaded cog: moderation
+2025-08-19 10:04:16,748 - bot.bot - INFO - Loaded cog: general
+2025-08-19 10:04:16,749 - bot.bot - INFO - Loaded cog: afk
+2025-08-19 10:04:16,751 - bot.bot - INFO - Loaded cog: admin
+2025-08-19 10:04:16,752 - bot.bot - INFO - Loaded cog: verification
+2025-08-19 10:04:17,033 - bot.bot - INFO - Loaded cog: music
+2025-08-19 10:04:17,034 - bot.bot - INFO - Bot setup complete!
+2025-08-19 10:04:17,368 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 2108d5099daf315ed90f30c6679d2f25).
+2025-08-19 10:04:19,462 - bot.bot - INFO - Bot is ready! Logged in as CONNECT KH2#9788
+2025-08-19 10:04:19,462 - bot.bot - INFO - Bot ID: 1401261269432144045
+2025-08-19 10:04:19,462 - bot.bot - INFO - Servers: 8
+2025-08-19 10:04:19,772 - bot.bot - INFO - Synced 2 slash commands
+2025-08-19 10:04:19,773 - bot.bot - INFO - Connected to: Alfie's club (ID: 1383871692887294063)
+2025-08-19 10:04:19,773 - bot.bot - INFO - Connected to: Silly Memes Club (ID: 1397555474563334267)
+2025-08-19 10:04:19,773 - bot.bot - INFO - Connected to: Bruzz Only! (ID: 1399461383468351508)
+2025-08-19 10:04:19,773 - bot.bot - INFO - Connected to: Skijibidi Kingdom: New Rise (ID: 1401620741979504640)
+2025-08-19 10:04:19,773 - bot.bot - INFO - Connected to: Boys Only Server (ID: 1402536865130876928)
+2025-08-19 10:04:19,773 - bot.bot - INFO - Connected to: ALK Studios (ID: 1406705191809716354)
+2025-08-19 10:04:19,773 - bot.bot - INFO - Connected to: Kawaii Squad OMG (ID: 1407011728058744963)
+2025-08-19 10:04:19,773 - bot.bot - INFO - Connected to: The Galaxy Servers! (ID: 1407018461141536778)
+2025-08-19 10:33:50,066 - __main__ - INFO - Starting Discord bot with enhanced features...
+2025-08-19 10:33:50,461 - bot.bot - INFO - Initializing database...
+2025-08-19 10:33:50,462 - bot.database - INFO - All database tables created successfully
+2025-08-19 10:33:50,463 - bot.database - INFO - Database initialized successfully
+2025-08-19 10:33:50,463 - bot.bot - INFO - Loading cogs...
+2025-08-19 10:33:50,485 - bot.bot - INFO - Loaded cog: template
+2025-08-19 10:33:50,487 - bot.bot - INFO - Loaded cog: moderation
+2025-08-19 10:33:50,488 - bot.bot - INFO - Loaded cog: general
+2025-08-19 10:33:50,489 - bot.bot - INFO - Loaded cog: afk
+2025-08-19 10:33:50,490 - bot.bot - INFO - Loaded cog: admin
+2025-08-19 10:33:50,491 - bot.bot - INFO - Loaded cog: verification
+2025-08-19 10:33:50,666 - bot.bot - INFO - Loaded cog: music
+2025-08-19 10:33:50,666 - bot.bot - INFO - Bot setup complete!
+2025-08-19 10:33:50,982 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: d39ad84c7f5e9d6ae99a143beeceddfa).
+2025-08-19 10:33:53,078 - bot.bot - INFO - Bot is ready! Logged in as CONNECT KH2#9788
+2025-08-19 10:33:53,078 - bot.bot - INFO - Bot ID: 1401261269432144045
+2025-08-19 10:33:53,078 - bot.bot - INFO - Servers: 8
+2025-08-19 10:33:53,331 - bot.bot - INFO - Synced 2 slash commands
+2025-08-19 10:33:53,331 - bot.bot - INFO - Connected to: Alfie's club (ID: 1383871692887294063)
+2025-08-19 10:33:53,331 - bot.bot - INFO - Connected to: Silly Memes Club (ID: 1397555474563334267)
+2025-08-19 10:33:53,332 - bot.bot - INFO - Connected to: Bruzz Only! (ID: 1399461383468351508)
+2025-08-19 10:33:53,332 - bot.bot - INFO - Connected to: Skijibidi Kingdom: New Rise (ID: 1401620741979504640)
+2025-08-19 10:33:53,332 - bot.bot - INFO - Connected to: Boys Only Server (ID: 1402536865130876928)
+2025-08-19 10:33:53,332 - bot.bot - INFO - Connected to: ALK Studios (ID: 1406705191809716354)
+2025-08-19 10:33:53,332 - bot.bot - INFO - Connected to: Kawaii Squad OMG (ID: 1407011728058744963)
+2025-08-19 10:33:53,332 - bot.bot - INFO - Connected to: The Galaxy Servers! (ID: 1407018461141536778)
+2025-08-19 10:48:03,443 - __main__ - INFO - Starting Discord bot with enhanced features...
+2025-08-19 10:48:03,930 - bot.bot - INFO - Initializing database...
+2025-08-19 10:48:03,932 - bot.database - INFO - All database tables created successfully
+2025-08-19 10:48:03,932 - bot.database - INFO - Database initialized successfully
+2025-08-19 10:48:03,932 - bot.bot - INFO - Loading cogs...
+2025-08-19 10:48:03,935 - bot.bot - INFO - Loaded cog: template
+2025-08-19 10:48:03,937 - bot.bot - INFO - Loaded cog: moderation
+2025-08-19 10:48:03,938 - bot.bot - INFO - Loaded cog: general
+2025-08-19 10:48:03,939 - bot.bot - INFO - Loaded cog: afk
+2025-08-19 10:48:03,957 - bot.bot - INFO - Loaded cog: admin
+2025-08-19 10:48:03,958 - bot.bot - INFO - Loaded cog: verification
+2025-08-19 10:48:04,138 - bot.bot - INFO - Loaded cog: music
+2025-08-19 10:48:04,138 - bot.bot - INFO - Bot setup complete!
+2025-08-19 10:48:04,521 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 2da51f5b137c52e97919cd2f01848cfc).
+2025-08-19 10:48:06,296 - __main__ - ERROR - ERROR: Discord token not found in environment variables!
+2025-08-19 10:48:06,296 - __main__ - ERROR - Please set DISCORD_TOKEN environment variable
+2025-08-19 10:48:06,296 - __main__ - ERROR - Example: export DISCORD_TOKEN='your_bot_token_here'
+2025-08-19 10:48:06,296 - __main__ - INFO - Bot shutdown complete
+2025-08-19 10:48:06,640 - bot.bot - INFO - Bot is ready! Logged in as CONNECT KH2#9788
+2025-08-19 10:48:06,640 - bot.bot - INFO - Bot ID: 1401261269432144045
+2025-08-19 10:48:06,640 - bot.bot - INFO - Servers: 8
+2025-08-19 10:48:06,785 - __main__ - INFO - Starting Discord bot with enhanced features...
+2025-08-19 10:48:06,886 - bot.bot - INFO - Synced 2 slash commands
+2025-08-19 10:48:06,886 - bot.bot - INFO - Connected to: Alfie's club (ID: 1383871692887294063)
+2025-08-19 10:48:06,886 - bot.bot - INFO - Connected to: Silly Memes Club (ID: 1397555474563334267)
+2025-08-19 10:48:06,887 - bot.bot - INFO - Connected to: Bruzz Only! (ID: 1399461383468351508)
+2025-08-19 10:48:06,887 - bot.bot - INFO - Connected to: Skijibidi Kingdom: New Rise (ID: 1401620741979504640)
+2025-08-19 10:48:06,887 - bot.bot - INFO - Connected to: Boys Only Server (ID: 1402536865130876928)
+2025-08-19 10:48:06,887 - bot.bot - INFO - Connected to: ALK Studios (ID: 1406705191809716354)
+2025-08-19 10:48:06,887 - bot.bot - INFO - Connected to: Kawaii Squad OMG (ID: 1407011728058744963)
+2025-08-19 10:48:06,887 - bot.bot - INFO - Connected to: The Galaxy Servers! (ID: 1407018461141536778)
+2025-08-19 10:48:07,189 - bot.bot - INFO - Initializing database...
+2025-08-19 10:48:07,191 - bot.database - INFO - All database tables created successfully
+2025-08-19 10:48:07,191 - bot.database - INFO - Database initialized successfully
+2025-08-19 10:48:07,191 - bot.bot - INFO - Loading cogs...
+2025-08-19 10:48:07,194 - bot.bot - INFO - Loaded cog: template
+2025-08-19 10:48:07,196 - bot.bot - INFO - Loaded cog: moderation
+2025-08-19 10:48:07,197 - bot.bot - INFO - Loaded cog: general
+2025-08-19 10:48:07,198 - bot.bot - INFO - Loaded cog: afk
+2025-08-19 10:48:07,211 - bot.bot - INFO - Loaded cog: admin
+2025-08-19 10:48:07,212 - bot.bot - INFO - Loaded cog: verification
+2025-08-19 10:48:07,347 - bot.bot - INFO - Loaded cog: music
+2025-08-19 10:48:07,347 - bot.bot - INFO - Bot setup complete!
+2025-08-19 10:48:07,698 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 847e9c8e6049448b02b8a1116233ad47).
+2025-08-19 10:48:09,794 - bot.bot - INFO - Bot is ready! Logged in as CONNECT KH2#9788
+2025-08-19 10:48:09,794 - bot.bot - INFO - Bot ID: 1401261269432144045
+2025-08-19 10:48:09,794 - bot.bot - INFO - Servers: 8
+2025-08-19 10:48:10,509 - __main__ - ERROR - ERROR: Discord token not found in environment variables!
+2025-08-19 10:48:10,509 - __main__ - ERROR - Please set DISCORD_TOKEN environment variable
+2025-08-19 10:48:10,510 - __main__ - ERROR - Example: export DISCORD_TOKEN='your_bot_token_here'
+2025-08-19 10:48:10,510 - __main__ - INFO - Bot shutdown complete
+2025-08-19 10:49:06,871 - bot.bot - INFO - Synced 2 slash commands
+2025-08-19 10:49:06,871 - bot.bot - INFO - Connected to: Alfie's club (ID: 1383871692887294063)
+2025-08-19 10:49:06,871 - bot.bot - INFO - Connected to: Silly Memes Club (ID: 1397555474563334267)
+2025-08-19 10:49:06,871 - bot.bot - INFO - Connected to: Bruzz Only! (ID: 1399461383468351508)
+2025-08-19 10:49:06,871 - bot.bot - INFO - Connected to: Skijibidi Kingdom: New Rise (ID: 1401620741979504640)
+2025-08-19 10:49:06,871 - bot.bot - INFO - Connected to: Boys Only Server (ID: 1402536865130876928)
+2025-08-19 10:49:06,871 - bot.bot - INFO - Connected to: ALK Studios (ID: 1406705191809716354)
+2025-08-19 10:49:06,871 - bot.bot - INFO - Connected to: Kawaii Squad OMG (ID: 1407011728058744963)
+2025-08-19 10:49:06,871 - bot.bot - INFO - Connected to: The Galaxy Servers! (ID: 1407018461141536778)
+2025-08-19 10:49:28,462 - discord.app_commands.tree - ERROR - Ignoring exception in command 'template'
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/app_commands/commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/bot/cogs/template.py", line 32, in slash_template
+    await interaction.response.defer()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/interactions.py", line 844, in defer
+    response = await adapter.create_interaction_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/webhook/async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/app_commands/tree.py", line 1310, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/app_commands/commands.py", line 883, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/app_commands/commands.py", line 876, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'template' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2025-08-19 10:56:04,564 - discord.app_commands.tree - ERROR - Ignoring exception in command 'template'
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/app_commands/commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/bot/cogs/template.py", line 32, in slash_template
+    await interaction.response.defer()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/interactions.py", line 844, in defer
+    response = await adapter.create_interaction_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/webhook/async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/app_commands/tree.py", line 1310, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/app_commands/commands.py", line 883, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/app_commands/commands.py", line 876, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'template' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2025-08-19 13:31:24,919 - __main__ - INFO - Starting Discord bot with enhanced features...
+2025-08-19 13:31:25,321 - bot.bot - INFO - Initializing database...
+2025-08-19 13:31:25,323 - bot.database - INFO - All database tables created successfully
+2025-08-19 13:31:25,323 - bot.database - INFO - Database initialized successfully
+2025-08-19 13:31:25,323 - bot.bot - INFO - Loading cogs...
+2025-08-19 13:31:25,327 - bot.bot - INFO - Loaded cog: template
+2025-08-19 13:31:25,329 - bot.bot - INFO - Loaded cog: moderation
+2025-08-19 13:31:25,331 - bot.bot - INFO - Loaded cog: general
+2025-08-19 13:31:25,332 - bot.bot - INFO - Loaded cog: afk
+2025-08-19 13:31:25,351 - bot.bot - INFO - Loaded cog: admin
+2025-08-19 13:31:25,353 - bot.bot - INFO - Loaded cog: verification
+2025-08-19 13:31:25,792 - bot.bot - INFO - Loaded cog: music
+2025-08-19 13:31:25,792 - bot.bot - INFO - Bot setup complete!
+2025-08-19 13:31:26,114 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: ba4828288a9cec110a0328f1973c1138).
+2025-08-19 13:31:28,213 - bot.bot - INFO - Bot is ready! Logged in as CONNECT KH2#9788
+2025-08-19 13:31:28,213 - bot.bot - INFO - Bot ID: 1401261269432144045
+2025-08-19 13:31:28,213 - bot.bot - INFO - Servers: 8
+2025-08-19 13:31:28,505 - bot.bot - INFO - Synced 2 slash commands
+2025-08-19 13:31:28,505 - bot.bot - INFO - Connected to: Alfie's club (ID: 1383871692887294063)
+2025-08-19 13:31:28,505 - bot.bot - INFO - Connected to: Silly Memes Club (ID: 1397555474563334267)
+2025-08-19 13:31:28,506 - bot.bot - INFO - Connected to: Bruzz Only! (ID: 1399461383468351508)
+2025-08-19 13:31:28,506 - bot.bot - INFO - Connected to: Skijibidi Kingdom: New Rise (ID: 1401620741979504640)
+2025-08-19 13:31:28,506 - bot.bot - INFO - Connected to: Boys Only Server (ID: 1402536865130876928)
+2025-08-19 13:31:28,506 - bot.bot - INFO - Connected to: ALK Studios (ID: 1406705191809716354)
+2025-08-19 13:31:28,506 - bot.bot - INFO - Connected to: Kawaii Squad OMG (ID: 1407011728058744963)
+2025-08-19 13:31:28,506 - bot.bot - INFO - Connected to: The Galaxy Servers! (ID: 1407018461141536778)
+2025-08-19 13:33:34,376 - __main__ - INFO - Starting Discord bot with enhanced features...
+2025-08-19 13:33:34,812 - bot.bot - INFO - Initializing database...
+2025-08-19 13:33:34,822 - bot.database - INFO - All database tables created successfully
+2025-08-19 13:33:34,822 - bot.database - INFO - Database initialized successfully
+2025-08-19 13:33:34,822 - bot.bot - INFO - Loading cogs...
+2025-08-19 13:33:34,827 - bot.bot - INFO - Loaded cog: template
+2025-08-19 13:33:34,829 - bot.bot - INFO - Loaded cog: moderation
+2025-08-19 13:33:34,831 - bot.bot - INFO - Loaded cog: general
+2025-08-19 13:33:34,832 - bot.bot - INFO - Loaded cog: afk
+2025-08-19 13:33:34,867 - bot.bot - INFO - Loaded cog: admin
+2025-08-19 13:33:34,877 - bot.bot - INFO - Loaded cog: verification
+2025-08-19 13:33:35,172 - bot.bot - INFO - Loaded cog: music
+2025-08-19 13:33:35,172 - bot.bot - INFO - Bot setup complete!
+2025-08-19 13:33:35,647 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 44614152504afb1afe38ec4f36e1323f).
+2025-08-19 13:33:37,756 - bot.bot - INFO - Bot is ready! Logged in as CONNECT KH2#9788
+2025-08-19 13:33:37,756 - bot.bot - INFO - Bot ID: 1401261269432144045
+2025-08-19 13:33:37,756 - bot.bot - INFO - Servers: 8
+2025-08-19 13:33:38,129 - bot.bot - INFO - Synced 2 slash commands
+2025-08-19 13:33:38,129 - bot.bot - INFO - Connected to: Alfie's club (ID: 1383871692887294063)
+2025-08-19 13:33:38,129 - bot.bot - INFO - Connected to: Silly Memes Club (ID: 1397555474563334267)
+2025-08-19 13:33:38,129 - bot.bot - INFO - Connected to: Bruzz Only! (ID: 1399461383468351508)
+2025-08-19 13:33:38,129 - bot.bot - INFO - Connected to: Skijibidi Kingdom: New Rise (ID: 1401620741979504640)
+2025-08-19 13:33:38,129 - bot.bot - INFO - Connected to: Boys Only Server (ID: 1402536865130876928)
+2025-08-19 13:33:38,129 - bot.bot - INFO - Connected to: ALK Studios (ID: 1406705191809716354)
+2025-08-19 13:33:38,129 - bot.bot - INFO - Connected to: Kawaii Squad OMG (ID: 1407011728058744963)
+2025-08-19 13:33:38,129 - bot.bot - INFO - Connected to: The Galaxy Servers! (ID: 1407018461141536778)
+2025-08-19 13:35:58,868 - __main__ - INFO - Starting Discord bot with enhanced features...
+2025-08-19 13:35:59,363 - bot.bot - INFO - Initializing database...
+2025-08-19 13:35:59,364 - bot.database - INFO - All database tables created successfully
+2025-08-19 13:35:59,364 - bot.database - INFO - Database initialized successfully
+2025-08-19 13:35:59,365 - bot.bot - INFO - Loading cogs...
+2025-08-19 13:35:59,369 - bot.bot - INFO - Loaded cog: template
+2025-08-19 13:35:59,372 - bot.bot - INFO - Loaded cog: moderation
+2025-08-19 13:35:59,374 - bot.bot - INFO - Loaded cog: general
+2025-08-19 13:35:59,381 - bot.bot - INFO - Loaded cog: afk
+2025-08-19 13:35:59,425 - bot.bot - INFO - Loaded cog: admin
+2025-08-19 13:35:59,426 - bot.bot - INFO - Loaded cog: verification
+2025-08-19 13:35:59,941 - bot.bot - INFO - Loaded cog: music
+2025-08-19 13:35:59,941 - bot.bot - INFO - Bot setup complete!
+2025-08-19 13:36:00,266 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 9716e55eaffa7570c5b302f68dcf9d46).
+2025-08-19 13:36:02,380 - bot.bot - INFO - Bot is ready! Logged in as CONNECT KH2#9788
+2025-08-19 13:36:02,381 - bot.bot - INFO - Bot ID: 1401261269432144045
+2025-08-19 13:36:02,381 - bot.bot - INFO - Servers: 8
+2025-08-19 13:36:02,382 - __main__ - INFO - Bot shutdown complete
+2025-08-19 13:37:40,596 - __main__ - INFO - Starting Discord bot with enhanced features...
+2025-08-19 13:37:41,065 - bot.bot - INFO - Initializing database...
+2025-08-19 13:37:41,067 - bot.database - INFO - All database tables created successfully
+2025-08-19 13:37:41,067 - bot.database - INFO - Database initialized successfully
+2025-08-19 13:37:41,067 - bot.bot - INFO - Loading cogs...
+2025-08-19 13:37:41,072 - bot.bot - INFO - Loaded cog: template
+2025-08-19 13:37:41,074 - bot.bot - INFO - Loaded cog: moderation
+2025-08-19 13:37:41,076 - bot.bot - INFO - Loaded cog: general
+2025-08-19 13:37:41,077 - bot.bot - INFO - Loaded cog: afk
+2025-08-19 13:37:41,109 - bot.bot - INFO - Loaded cog: admin
+2025-08-19 13:37:41,110 - bot.bot - INFO - Loaded cog: verification
+2025-08-19 13:37:41,470 - bot.bot - INFO - Loaded cog: music
+2025-08-19 13:37:41,470 - bot.bot - INFO - Bot setup complete!
+2025-08-19 13:37:41,800 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: f282ebdfd9c12b85dd3368a63a205336).
+2025-08-19 13:37:43,905 - bot.bot - INFO - Bot is ready! Logged in as CONNECT KH2#9788
+2025-08-19 13:37:43,906 - bot.bot - INFO - Bot ID: 1401261269432144045
+2025-08-19 13:37:43,906 - bot.bot - INFO - Servers: 8
+2025-08-19 13:37:43,907 - __main__ - INFO - Bot shutdown complete
+2025-08-19 13:37:57,189 - __main__ - INFO - Starting Discord bot with enhanced features...
+2025-08-19 13:37:57,615 - bot.bot - INFO - Initializing database...
+2025-08-19 13:37:57,650 - bot.database - INFO - All database tables created successfully
+2025-08-19 13:37:57,656 - bot.database - INFO - Database initialized successfully
+2025-08-19 13:37:57,656 - bot.bot - INFO - Loading cogs...
+2025-08-19 13:37:57,680 - __main__ - ERROR - ERROR: Discord token not found in environment variables!
+2025-08-19 13:37:57,680 - __main__ - ERROR - Please set DISCORD_TOKEN environment variable
+2025-08-19 13:37:57,680 - __main__ - ERROR - Example: export DISCORD_TOKEN='your_bot_token_here'
+2025-08-19 13:37:57,681 - __main__ - INFO - Bot shutdown complete
+2025-08-19 13:37:57,698 - bot.bot - INFO - Loaded cog: template
+2025-08-19 13:37:57,746 - bot.bot - INFO - Loaded cog: moderation
+2025-08-19 13:37:57,762 - bot.bot - INFO - Loaded cog: general
+2025-08-19 13:37:57,767 - bot.bot - INFO - Loaded cog: afk
+2025-08-19 13:37:57,855 - bot.bot - INFO - Loaded cog: admin
+2025-08-19 13:37:57,856 - bot.bot - INFO - Loaded cog: verification
+2025-08-19 13:37:58,208 - bot.bot - INFO - Loaded cog: music
+2025-08-19 13:37:58,209 - bot.bot - INFO - Bot setup complete!
+2025-08-19 13:37:58,501 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: f7a85f80ea3161123b5b822421286f51).
+2025-08-19 13:38:00,612 - bot.bot - INFO - Bot is ready! Logged in as CONNECT KH2#9788
+2025-08-19 13:38:00,622 - bot.bot - INFO - Bot ID: 1401261269432144045
+2025-08-19 13:38:00,623 - bot.bot - INFO - Servers: 8
+2025-08-19 13:38:00,624 - __main__ - INFO - Bot shutdown complete
+2025-08-19 13:39:13,071 - __main__ - ERROR - ERROR: Discord token not found in environment variables!
+2025-08-19 13:39:13,072 - __main__ - ERROR - Please set DISCORD_TOKEN environment variable
+2025-08-19 13:39:13,072 - __main__ - ERROR - Example: export DISCORD_TOKEN='your_bot_token_here'
+2025-08-19 13:39:13,072 - __main__ - INFO - Bot shutdown complete
+2025-08-19 13:39:17,541 - __main__ - ERROR - ERROR: Discord token not found in environment variables!
+2025-08-19 13:39:17,541 - __main__ - ERROR - Please set DISCORD_TOKEN environment variable
+2025-08-19 13:39:17,542 - __main__ - ERROR - Example: export DISCORD_TOKEN='your_bot_token_here'
+2025-08-19 13:39:17,542 - __main__ - INFO - Bot shutdown complete
+2025-08-19 13:39:19,755 - __main__ - INFO - Starting Discord bot with enhanced features...
+2025-08-19 13:39:20,238 - bot.bot - INFO - Initializing database...
+2025-08-19 13:39:20,246 - bot.database - INFO - All database tables created successfully
+2025-08-19 13:39:20,246 - bot.database - INFO - Database initialized successfully
+2025-08-19 13:39:20,246 - bot.bot - INFO - Loading cogs...
+2025-08-19 13:39:20,250 - bot.bot - INFO - Loaded cog: template
+2025-08-19 13:39:20,252 - bot.bot - INFO - Loaded cog: moderation
+2025-08-19 13:39:20,257 - bot.bot - INFO - Loaded cog: general
+2025-08-19 13:39:20,258 - bot.bot - INFO - Loaded cog: afk
+2025-08-19 13:39:20,285 - bot.bot - INFO - Loaded cog: admin
+2025-08-19 13:39:20,337 - bot.bot - INFO - Loaded cog: verification
+2025-08-19 13:39:20,754 - bot.bot - INFO - Loaded cog: music
+2025-08-19 13:39:20,758 - bot.bot - INFO - Bot setup complete!
+2025-08-19 13:39:21,152 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 366032839d5dbf50e18913cc4e7d9721).
+2025-08-19 13:39:21,809 - __main__ - ERROR - ERROR: Discord token not found in environment variables!
+2025-08-19 13:39:21,809 - __main__ - ERROR - Please set DISCORD_TOKEN environment variable
+2025-08-19 13:39:21,810 - __main__ - ERROR - Example: export DISCORD_TOKEN='your_bot_token_here'
+2025-08-19 13:39:21,810 - __main__ - INFO - Bot shutdown complete
+2025-08-19 13:39:23,244 - bot.bot - INFO - Bot is ready! Logged in as CONNECT KH2#9788
+2025-08-19 13:39:23,245 - bot.bot - INFO - Bot ID: 1401261269432144045
+2025-08-19 13:39:23,245 - bot.bot - INFO - Servers: 8
+2025-08-19 13:39:23,246 - __main__ - INFO - Bot shutdown complete
+2025-08-19 14:31:31,990 - __main__ - INFO - Starting Discord bot with enhanced features...
+2025-08-19 14:31:32,570 - bot.bot - INFO - Initializing database...
+2025-08-19 14:31:32,573 - bot.database - INFO - All database tables created successfully
+2025-08-19 14:31:32,573 - bot.database - INFO - Database initialized successfully
+2025-08-19 14:31:32,573 - bot.bot - INFO - Loading cogs...
+2025-08-19 14:31:32,580 - bot.bot - INFO - Loaded cog: template
+2025-08-19 14:31:32,585 - bot.bot - INFO - Loaded cog: moderation
+2025-08-19 14:31:32,586 - bot.bot - INFO - Loaded cog: general
+2025-08-19 14:31:32,587 - bot.bot - INFO - Loaded cog: afk
+2025-08-19 14:31:32,605 - bot.bot - INFO - Loaded cog: admin
+2025-08-19 14:31:32,607 - bot.bot - INFO - Loaded cog: verification
+2025-08-19 14:31:32,874 - bot.bot - INFO - Loaded cog: music
+2025-08-19 14:31:32,874 - bot.bot - INFO - Bot setup complete!
+2025-08-19 14:31:33,093 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 0e0bb0ee1870c4b77723adae566f3fa5).
+2025-08-19 14:31:35,134 - bot.bot - INFO - Bot is ready! Logged in as CONNECT KH2#9788
+2025-08-19 14:31:35,134 - bot.bot - INFO - Bot ID: 1401261269432144045
+2025-08-19 14:31:35,134 - bot.bot - INFO - Servers: 8
+2025-08-19 14:31:35,135 - __main__ - INFO - Bot shutdown complete
+2025-08-19 14:34:04,142 - __main__ - INFO - Starting Discord bot with enhanced features...
+2025-08-19 14:34:04,852 - bot.bot - INFO - Initializing database...
+2025-08-19 14:34:04,856 - bot.database - INFO - All database tables created successfully
+2025-08-19 14:34:04,856 - bot.database - INFO - Database initialized successfully
+2025-08-19 14:34:04,856 - bot.bot - INFO - Loading cogs...
+2025-08-19 14:34:04,861 - bot.bot - INFO - Loaded cog: template
+2025-08-19 14:34:04,865 - bot.bot - INFO - Loaded cog: moderation
+2025-08-19 14:34:04,867 - bot.bot - INFO - Loaded cog: general
+2025-08-19 14:34:04,867 - bot.bot - INFO - Loaded cog: afk
+2025-08-19 14:34:04,888 - bot.bot - INFO - Loaded cog: admin
+2025-08-19 14:34:04,889 - bot.bot - INFO - Loaded cog: verification
+2025-08-19 14:34:05,073 - bot.bot - INFO - Loaded cog: music
+2025-08-19 14:34:05,074 - bot.bot - INFO - Bot setup complete!
+2025-08-19 14:34:05,369 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: cb030b114156d58f17ca712ffc8cd310).
+2025-08-19 14:34:07,410 - bot.bot - INFO - Bot is ready! Logged in as CONNECT KH2#9788
+2025-08-19 14:34:07,410 - bot.bot - INFO - Bot ID: 1401261269432144045
+2025-08-19 14:34:07,410 - bot.bot - INFO - Servers: 8
+2025-08-19 14:34:07,411 - __main__ - INFO - Console manager stopped, shutting down bot
+2025-08-19 14:34:07,411 - bot.bot - INFO - Bot is shutting down...
+2025-08-19 14:34:07,412 - bot.database - INFO - Database connection closed
+2025-08-19 14:34:07,449 - __main__ - INFO - Bot shutdown complete
+2025-08-19 14:34:46,499 - __main__ - INFO - Starting Discord bot with enhanced features...
+2025-08-19 14:34:46,974 - bot.bot - INFO - Initializing database...
+2025-08-19 14:34:46,977 - bot.database - INFO - All database tables created successfully
+2025-08-19 14:34:46,977 - bot.database - INFO - Database initialized successfully
+2025-08-19 14:34:46,977 - bot.bot - INFO - Loading cogs...
+2025-08-19 14:34:46,981 - bot.bot - INFO - Loaded cog: template
+2025-08-19 14:34:46,982 - bot.bot - INFO - Loaded cog: moderation
+2025-08-19 14:34:46,984 - bot.bot - INFO - Loaded cog: general
+2025-08-19 14:34:46,985 - bot.bot - INFO - Loaded cog: afk
+2025-08-19 14:34:47,001 - bot.bot - INFO - Loaded cog: admin
+2025-08-19 14:34:47,003 - bot.bot - INFO - Loaded cog: verification
+2025-08-19 14:34:47,167 - bot.bot - INFO - Loaded cog: music
+2025-08-19 14:34:47,167 - bot.bot - INFO - Bot setup complete!
+2025-08-19 14:34:47,465 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: f87a9f3097b47793cfac68226ac99bc7).
+2025-08-19 14:34:49,521 - bot.bot - INFO - Bot is ready! Logged in as CONNECT KH2#9788
+2025-08-19 14:34:49,523 - bot.bot - INFO - Bot ID: 1401261269432144045
+2025-08-19 14:34:49,523 - bot.bot - INFO - Servers: 8
+2025-08-19 14:34:49,525 - __main__ - INFO - Console manager stopped, shutting down bot
+2025-08-19 14:34:49,526 - bot.bot - INFO - Bot is shutting down...
+2025-08-19 14:34:49,527 - bot.database - INFO - Database connection closed
+2025-08-19 14:34:49,572 - __main__ - INFO - Bot shutdown complete
+2025-08-19 14:34:49,820 - __main__ - ERROR - ERROR: Discord token not found in environment variables!
+2025-08-19 14:34:49,823 - __main__ - ERROR - Please set DISCORD_TOKEN environment variable
+2025-08-19 14:34:49,824 - __main__ - ERROR - Example: export DISCORD_TOKEN='your_bot_token_here'
+2025-08-19 14:34:49,824 - __main__ - INFO - Bot shutdown complete
+2025-08-19 14:35:20,611 - __main__ - INFO - Starting Discord bot with enhanced features...
+2025-08-19 14:35:21,066 - bot.bot - INFO - Initializing database...
+2025-08-19 14:35:21,067 - bot.database - INFO - All database tables created successfully
+2025-08-19 14:35:21,068 - bot.database - INFO - Database initialized successfully
+2025-08-19 14:35:21,068 - bot.bot - INFO - Loading cogs...
+2025-08-19 14:35:21,071 - bot.bot - INFO - Loaded cog: template
+2025-08-19 14:35:21,074 - bot.bot - INFO - Loaded cog: moderation
+2025-08-19 14:35:21,076 - bot.bot - INFO - Loaded cog: general
+2025-08-19 14:35:21,082 - bot.bot - INFO - Loaded cog: afk
+2025-08-19 14:35:21,109 - bot.bot - INFO - Loaded cog: admin
+2025-08-19 14:35:21,116 - bot.bot - INFO - Loaded cog: verification
+2025-08-19 14:35:21,393 - bot.bot - INFO - Loaded cog: music
+2025-08-19 14:35:21,397 - bot.bot - INFO - Bot setup complete!
+2025-08-19 14:35:21,665 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 6b4a4b111282103d7c9b76e7e590e4d7).
+2025-08-19 14:35:23,725 - bot.bot - INFO - Bot is ready! Logged in as CONNECT KH2#9788
+2025-08-19 14:35:23,725 - bot.bot - INFO - Bot ID: 1401261269432144045
+2025-08-19 14:35:23,726 - bot.bot - INFO - Servers: 8
+2025-08-19 14:35:24,345 - bot.bot - INFO - Synced 2 slash commands
+2025-08-19 14:35:24,345 - bot.bot - INFO - Connected to: Alfie's club (ID: 1383871692887294063)
+2025-08-19 14:35:24,345 - bot.bot - INFO - Connected to: Silly Memes Club (ID: 1397555474563334267)
+2025-08-19 14:35:24,346 - bot.bot - INFO - Connected to: Bruzz Only! (ID: 1399461383468351508)
+2025-08-19 14:35:24,346 - bot.bot - INFO - Connected to: Skijibidi Kingdom: New Rise (ID: 1401620741979504640)
+2025-08-19 14:35:24,346 - bot.bot - INFO - Connected to: Boys Only Server (ID: 1402536865130876928)
+2025-08-19 14:35:24,346 - bot.bot - INFO - Connected to: ALK Studios (ID: 1406705191809716354)
+2025-08-19 14:35:24,346 - bot.bot - INFO - Connected to: Kawaii Squad OMG (ID: 1407011728058744963)
+2025-08-19 14:35:24,346 - bot.bot - INFO - Connected to: The Galaxy Servers! (ID: 1407018461141536778)
+2025-08-19 14:40:12,366 - bot.bot - ERROR - Unexpected error in command ban: member is a required argument that is missing.
+2025-08-19 14:40:20,271 - bot.bot - ERROR - Unexpected error in command ban: member is a required argument that is missing.
+2025-08-19 14:40:24,776 - bot.bot - ERROR - Unexpected error in command warn: member is a required argument that is missing.
+2025-08-19 14:40:27,933 - bot.bot - ERROR - Unexpected error in command kick: member is a required argument that is missing.
+2025-08-19 14:41:36,474 - bot.bot - INFO - Joined new guild: Kawaii Squad OMG (ID: 1407011728058744963)
+2025-08-19 14:41:36,514 - bot.database - INFO - Created database entry for guild 1407011728058744963
+2025-08-19 14:43:42,065 - discord.gateway - INFO - Shard ID None has successfully RESUMED session 6b4a4b111282103d7c9b76e7e590e4d7.
+2025-08-19 14:46:10,719 - __main__ - INFO - Starting Discord bot with enhanced features...
+2025-08-19 14:46:11,157 - bot.bot - INFO - Initializing database...
+2025-08-19 14:46:11,159 - bot.database - INFO - All database tables created successfully
+2025-08-19 14:46:11,159 - bot.database - INFO - Database initialized successfully
+2025-08-19 14:46:11,159 - bot.bot - INFO - Loading cogs...
+2025-08-19 14:46:11,163 - bot.bot - INFO - Loaded cog: template
+2025-08-19 14:46:11,168 - bot.bot - INFO - Loaded cog: moderation
+2025-08-19 14:46:11,172 - bot.bot - INFO - Loaded cog: general
+2025-08-19 14:46:11,173 - bot.bot - INFO - Loaded cog: afk
+2025-08-19 14:46:11,192 - bot.bot - INFO - Loaded cog: admin
+2025-08-19 14:46:11,193 - bot.bot - INFO - Loaded cog: verification
+2025-08-19 14:46:11,343 - bot.bot - INFO - Loaded cog: music
+2025-08-19 14:46:11,343 - bot.bot - INFO - Bot setup complete!
+2025-08-19 14:46:11,547 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 5691803e5d3f890450156fef09a0de16).
+2025-08-19 14:46:13,592 - bot.bot - INFO - Bot is ready! Logged in as CONNECT KH2#9788
+2025-08-19 14:46:13,593 - bot.bot - INFO - Bot ID: 1401261269432144045
+2025-08-19 14:46:13,593 - bot.bot - INFO - Servers: 8
+2025-08-19 14:46:13,776 - bot.bot - INFO - Synced 2 slash commands
+2025-08-19 14:46:13,776 - bot.bot - INFO - Connected to: Alfie's club (ID: 1383871692887294063)
+2025-08-19 14:46:13,776 - bot.bot - INFO - Connected to: Silly Memes Club (ID: 1397555474563334267)
+2025-08-19 14:46:13,776 - bot.bot - INFO - Connected to: Bruzz Only! (ID: 1399461383468351508)
+2025-08-19 14:46:13,776 - bot.bot - INFO - Connected to: Skijibidi Kingdom: New Rise (ID: 1401620741979504640)
+2025-08-19 14:46:13,776 - bot.bot - INFO - Connected to: Boys Only Server (ID: 1402536865130876928)
+2025-08-19 14:46:13,777 - bot.bot - INFO - Connected to: ALK Studios (ID: 1406705191809716354)
+2025-08-19 14:46:13,777 - bot.bot - INFO - Connected to: Kawaii Squad OMG (ID: 1407011728058744963)
+2025-08-19 14:46:13,777 - bot.bot - INFO - Connected to: The Galaxy Servers! (ID: 1407018461141536778)
+2025-08-19 14:46:53,149 - bot.bot - ERROR - Unexpected error in command warn: Member "@​everyone" not found.
+2025-08-19 14:51:31,793 - __main__ - INFO - Starting Discord bot with enhanced features...
+2025-08-19 14:51:32,277 - bot.bot - INFO - Initializing database...
+2025-08-19 14:51:32,279 - bot.database - INFO - All database tables created successfully
+2025-08-19 14:51:32,279 - bot.database - INFO - Database initialized successfully
+2025-08-19 14:51:32,279 - bot.bot - INFO - Loading cogs...
+2025-08-19 14:51:32,283 - bot.bot - INFO - Loaded cog: template
+2025-08-19 14:51:32,289 - bot.bot - INFO - Loaded cog: moderation
+2025-08-19 14:51:32,290 - bot.bot - INFO - Loaded cog: general
+2025-08-19 14:51:32,305 - bot.bot - INFO - Loaded cog: afk
+2025-08-19 14:51:32,306 - bot.bot - INFO - Loaded cog: admin
+2025-08-19 14:51:32,307 - bot.bot - INFO - Loaded cog: verification
+2025-08-19 14:51:32,452 - bot.bot - INFO - Loaded cog: music
+2025-08-19 14:51:32,452 - bot.bot - INFO - Bot setup complete!
+2025-08-19 14:51:32,680 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: c0369b5873c6f3966b9d5aef2f8d9a63).
+2025-08-19 14:51:34,725 - bot.bot - INFO - Bot is ready! Logged in as CONNECT KH2#9788
+2025-08-19 14:51:34,725 - bot.bot - INFO - Bot ID: 1401261269432144045
+2025-08-19 14:51:34,725 - bot.bot - INFO - Servers: 8
+2025-08-19 14:51:35,000 - bot.bot - INFO - Synced 3 slash commands
+2025-08-19 14:51:35,001 - bot.bot - INFO - Connected to: Alfie's club (ID: 1383871692887294063)
+2025-08-19 14:51:35,001 - bot.bot - INFO - Connected to: Silly Memes Club (ID: 1397555474563334267)
+2025-08-19 14:51:35,001 - bot.bot - INFO - Connected to: Bruzz Only! (ID: 1399461383468351508)
+2025-08-19 14:51:35,001 - bot.bot - INFO - Connected to: Skijibidi Kingdom: New Rise (ID: 1401620741979504640)
+2025-08-19 14:51:35,001 - bot.bot - INFO - Connected to: Boys Only Server (ID: 1402536865130876928)
+2025-08-19 14:51:35,001 - bot.bot - INFO - Connected to: ALK Studios (ID: 1406705191809716354)
+2025-08-19 14:51:35,001 - bot.bot - INFO - Connected to: Kawaii Squad OMG (ID: 1407011728058744963)
+2025-08-19 14:51:35,001 - bot.bot - INFO - Connected to: The Galaxy Servers! (ID: 1407018461141536778)
+2025-08-19 14:51:44,076 - bot.bot - ERROR - Unexpected error in command commandban: member is a required argument that is missing.
+2025-08-19 14:54:38,018 - bot.bot - ERROR - Unexpected error in command commandban: member is a required argument that is missing.
+2025-08-19 14:55:22,900 - bot.bot - ERROR - Unexpected error in command commandban: member is a required argument that is missing.
+2025-08-19 15:13:42,070 - __main__ - INFO - Starting Discord bot with enhanced features...
+2025-08-19 15:13:42,512 - bot.bot - INFO - Initializing database...
+2025-08-19 15:13:42,514 - bot.database - INFO - All database tables created successfully
+2025-08-19 15:13:42,514 - bot.database - INFO - Database initialized successfully
+2025-08-19 15:13:42,514 - bot.bot - INFO - Loading cogs...
+2025-08-19 15:13:42,517 - bot.bot - INFO - Loaded cog: template
+2025-08-19 15:13:42,520 - bot.bot - INFO - Loaded cog: moderation
+2025-08-19 15:13:42,521 - bot.bot - INFO - Loaded cog: general
+2025-08-19 15:13:42,522 - bot.bot - INFO - Loaded cog: afk
+2025-08-19 15:13:42,549 - bot.bot - INFO - Loaded cog: admin
+2025-08-19 15:13:42,551 - bot.bot - INFO - Loaded cog: verification
+2025-08-19 15:13:42,771 - bot.bot - INFO - Loaded cog: music
+2025-08-19 15:13:42,776 - bot.bot - INFO - Bot setup complete!
+2025-08-19 15:13:43,016 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: a19cda1c151022801f492d209a419d65).
+2025-08-19 15:13:45,073 - bot.bot - INFO - Bot is ready! Logged in as CONNECT KH2#9788
+2025-08-19 15:13:45,073 - bot.bot - INFO - Bot ID: 1401261269432144045
+2025-08-19 15:13:45,073 - bot.bot - INFO - Servers: 8
+2025-08-19 15:13:45,243 - bot.bot - INFO - Synced 3 slash commands
+2025-08-19 15:13:45,244 - bot.bot - INFO - Connected to: Alfie's club (ID: 1383871692887294063)
+2025-08-19 15:13:45,244 - bot.bot - INFO - Connected to: Silly Memes Club (ID: 1397555474563334267)
+2025-08-19 15:13:45,244 - bot.bot - INFO - Connected to: Bruzz Only! (ID: 1399461383468351508)
+2025-08-19 15:13:45,244 - bot.bot - INFO - Connected to: Skijibidi Kingdom: New Rise (ID: 1401620741979504640)
+2025-08-19 15:13:45,244 - bot.bot - INFO - Connected to: Boys Only Server (ID: 1402536865130876928)
+2025-08-19 15:13:45,244 - bot.bot - INFO - Connected to: ALK Studios (ID: 1406705191809716354)
+2025-08-19 15:13:45,244 - bot.bot - INFO - Connected to: Kawaii Squad OMG (ID: 1407011728058744963)
+2025-08-19 15:13:45,244 - bot.bot - INFO - Connected to: The Galaxy Servers! (ID: 1407018461141536778)
+2025-08-19 15:13:58,430 - __main__ - INFO - Starting Discord bot with enhanced features...
+2025-08-19 15:13:58,442 - __main__ - ERROR - ERROR: Discord token not found in environment variables!
+2025-08-19 15:13:58,442 - __main__ - ERROR - Please set DISCORD_TOKEN environment variable
+2025-08-19 15:13:58,442 - __main__ - ERROR - Example: export DISCORD_TOKEN='your_bot_token_here'
+2025-08-19 15:13:58,442 - __main__ - INFO - Bot shutdown complete
+2025-08-19 15:13:58,855 - bot.bot - INFO - Initializing database...
+2025-08-19 15:13:58,858 - bot.database - INFO - All database tables created successfully
+2025-08-19 15:13:58,858 - bot.database - INFO - Database initialized successfully
+2025-08-19 15:13:58,858 - bot.bot - INFO - Loading cogs...
+2025-08-19 15:13:58,864 - bot.bot - INFO - Loaded cog: template
+2025-08-19 15:13:58,866 - bot.bot - INFO - Loaded cog: moderation
+2025-08-19 15:13:58,868 - bot.bot - INFO - Loaded cog: general
+2025-08-19 15:13:58,871 - bot.bot - INFO - Loaded cog: afk
+2025-08-19 15:13:58,891 - bot.bot - INFO - Loaded cog: admin
+2025-08-19 15:13:58,893 - bot.bot - INFO - Loaded cog: verification
+2025-08-19 15:13:59,132 - bot.bot - INFO - Loaded cog: music
+2025-08-19 15:13:59,134 - bot.bot - INFO - Bot setup complete!
+2025-08-19 15:13:59,680 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 8c737e5e332c3477a39827a394848ce5).
+2025-08-19 15:14:01,720 - bot.bot - INFO - Bot is ready! Logged in as CONNECT KH2#9788
+2025-08-19 15:14:01,720 - bot.bot - INFO - Bot ID: 1401261269432144045
+2025-08-19 15:14:01,720 - bot.bot - INFO - Servers: 8
+2025-08-19 15:14:45,249 - bot.bot - INFO - Synced 3 slash commands
+2025-08-19 15:14:45,249 - bot.bot - INFO - Connected to: Alfie's club (ID: 1383871692887294063)
+2025-08-19 15:14:45,249 - bot.bot - INFO - Connected to: Silly Memes Club (ID: 1397555474563334267)
+2025-08-19 15:14:45,249 - bot.bot - INFO - Connected to: Bruzz Only! (ID: 1399461383468351508)
+2025-08-19 15:14:45,249 - bot.bot - INFO - Connected to: Skijibidi Kingdom: New Rise (ID: 1401620741979504640)
+2025-08-19 15:14:45,249 - bot.bot - INFO - Connected to: Boys Only Server (ID: 1402536865130876928)
+2025-08-19 15:14:45,249 - bot.bot - INFO - Connected to: ALK Studios (ID: 1406705191809716354)
+2025-08-19 15:14:45,250 - bot.bot - INFO - Connected to: Kawaii Squad OMG (ID: 1407011728058744963)
+2025-08-19 15:14:45,250 - bot.bot - INFO - Connected to: The Galaxy Servers! (ID: 1407018461141536778)
+2025-08-19 15:16:44,428 - __main__ - INFO - Starting Discord bot with enhanced features...
+2025-08-19 15:16:44,865 - bot.bot - INFO - Initializing database...
+2025-08-19 15:16:44,867 - bot.database - INFO - All database tables created successfully
+2025-08-19 15:16:44,867 - bot.database - INFO - Database initialized successfully
+2025-08-19 15:16:44,867 - bot.bot - INFO - Loading cogs...
+2025-08-19 15:16:44,871 - bot.bot - INFO - Loaded cog: template
+2025-08-19 15:16:44,896 - bot.bot - INFO - Loaded cog: moderation
+2025-08-19 15:16:44,899 - bot.bot - INFO - Loaded cog: general
+2025-08-19 15:16:44,900 - bot.bot - INFO - Loaded cog: afk
+2025-08-19 15:16:44,902 - bot.bot - INFO - Loaded cog: admin
+2025-08-19 15:16:44,903 - bot.bot - INFO - Loaded cog: verification
+2025-08-19 15:16:45,054 - bot.bot - INFO - Loaded cog: music
+2025-08-19 15:16:45,062 - bot.bot - INFO - Loaded cog: fun
+2025-08-19 15:16:45,062 - bot.bot - INFO - Bot setup complete!
+2025-08-19 15:16:45,309 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 3923bbe40cff6e8bfd24fa3351397cf4).
+2025-08-19 15:16:47,349 - bot.bot - INFO - Bot is ready! Logged in as CONNECT KH2#9788
+2025-08-19 15:16:47,349 - bot.bot - INFO - Bot ID: 1401261269432144045
+2025-08-19 15:16:47,349 - bot.bot - INFO - Servers: 8
+2025-08-19 15:16:47,578 - bot.bot - INFO - Synced 13 slash commands
+2025-08-19 15:16:47,579 - bot.bot - INFO - Connected to: Alfie's club (ID: 1383871692887294063)
+2025-08-19 15:16:47,579 - bot.bot - INFO - Connected to: Silly Memes Club (ID: 1397555474563334267)
+2025-08-19 15:16:47,579 - bot.bot - INFO - Connected to: Bruzz Only! (ID: 1399461383468351508)
+2025-08-19 15:16:47,579 - bot.bot - INFO - Connected to: Skijibidi Kingdom: New Rise (ID: 1401620741979504640)
+2025-08-19 15:16:47,579 - bot.bot - INFO - Connected to: Boys Only Server (ID: 1402536865130876928)
+2025-08-19 15:16:47,579 - bot.bot - INFO - Connected to: ALK Studios (ID: 1406705191809716354)
+2025-08-19 15:16:47,579 - bot.bot - INFO - Connected to: Kawaii Squad OMG (ID: 1407011728058744963)
+2025-08-19 15:16:47,579 - bot.bot - INFO - Connected to: The Galaxy Servers! (ID: 1407018461141536778)
+2025-08-19 15:25:43,671 - __main__ - INFO - Starting Discord bot with enhanced features...
+2025-08-19 15:25:44,191 - bot.bot - INFO - Initializing database...
+2025-08-19 15:25:44,197 - bot.database - INFO - All database tables created successfully
+2025-08-19 15:25:44,197 - bot.database - INFO - Database initialized successfully
+2025-08-19 15:25:44,197 - bot.bot - INFO - Loading cogs...
+2025-08-19 15:25:44,208 - bot.bot - INFO - Loaded cog: template
+2025-08-19 15:25:44,216 - bot.bot - INFO - Loaded cog: moderation
+2025-08-19 15:25:44,255 - bot.bot - INFO - Loaded cog: general
+2025-08-19 15:25:44,256 - bot.bot - INFO - Loaded cog: afk
+2025-08-19 15:25:44,258 - bot.bot - INFO - Loaded cog: admin
+2025-08-19 15:25:44,259 - bot.bot - INFO - Loaded cog: verification
+2025-08-19 15:25:44,472 - bot.bot - INFO - Loaded cog: music
+2025-08-19 15:25:44,474 - bot.bot - INFO - Loaded cog: fun
+2025-08-19 15:25:44,474 - bot.bot - INFO - Bot setup complete!
+2025-08-19 15:25:44,802 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 41b5956806d074572359fe824fa3e876).
+2025-08-19 15:25:46,857 - bot.bot - INFO - Bot is ready! Logged in as CONNECT KH2#9788
+2025-08-19 15:25:46,857 - bot.bot - INFO - Bot ID: 1401261269432144045
+2025-08-19 15:25:46,858 - bot.bot - INFO - Servers: 8
+2025-08-19 15:25:47,047 - bot.bot - INFO - Synced 13 slash commands
+2025-08-19 15:25:47,048 - bot.bot - INFO - Connected to: Alfie's club (ID: 1383871692887294063)
+2025-08-19 15:25:47,048 - bot.bot - INFO - Connected to: Silly Memes Club (ID: 1397555474563334267)
+2025-08-19 15:25:47,048 - bot.bot - INFO - Connected to: Bruzz Only! (ID: 1399461383468351508)
+2025-08-19 15:25:47,048 - bot.bot - INFO - Connected to: Skijibidi Kingdom: New Rise (ID: 1401620741979504640)
+2025-08-19 15:25:47,048 - bot.bot - INFO - Connected to: Boys Only Server (ID: 1402536865130876928)
+2025-08-19 15:25:47,048 - bot.bot - INFO - Connected to: ALK Studios (ID: 1406705191809716354)
+2025-08-19 15:25:47,048 - bot.bot - INFO - Connected to: Kawaii Squad OMG (ID: 1407011728058744963)
+2025-08-19 15:25:47,048 - bot.bot - INFO - Connected to: The Galaxy Servers! (ID: 1407018461141536778)
+2025-08-19 15:27:55,490 - __main__ - INFO - Starting Discord bot with enhanced features...
+2025-08-19 15:27:55,929 - bot.bot - INFO - Initializing database...
+2025-08-19 15:27:55,931 - bot.database - INFO - All database tables created successfully
+2025-08-19 15:27:55,931 - bot.database - INFO - Database initialized successfully
+2025-08-19 15:27:55,931 - bot.bot - INFO - Loading cogs...
+2025-08-19 15:27:55,935 - bot.bot - INFO - Loaded cog: template
+2025-08-19 15:27:55,975 - bot.bot - INFO - Loaded cog: moderation
+2025-08-19 15:27:55,978 - bot.bot - INFO - Loaded cog: general
+2025-08-19 15:27:55,978 - bot.bot - INFO - Loaded cog: afk
+2025-08-19 15:27:55,980 - bot.bot - INFO - Loaded cog: admin
+2025-08-19 15:27:55,981 - bot.bot - INFO - Loaded cog: verification
+2025-08-19 15:27:56,142 - bot.bot - INFO - Loaded cog: music
+2025-08-19 15:27:56,144 - bot.bot - INFO - Loaded cog: fun
+2025-08-19 15:27:56,144 - bot.bot - INFO - Bot setup complete!
+2025-08-19 15:27:56,351 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: a8ef4cf24dfab7189031ce1a7d161aaa).
+2025-08-19 15:27:58,397 - bot.bot - INFO - Bot is ready! Logged in as CONNECT KH2#9788
+2025-08-19 15:27:58,397 - bot.bot - INFO - Bot ID: 1401261269432144045
+2025-08-19 15:27:58,397 - bot.bot - INFO - Servers: 8
+2025-08-19 15:27:58,586 - bot.bot - INFO - Synced 13 slash commands
+2025-08-19 15:27:58,586 - bot.bot - INFO - Connected to: Alfie's club (ID: 1383871692887294063)
+2025-08-19 15:27:58,586 - bot.bot - INFO - Connected to: Silly Memes Club (ID: 1397555474563334267)
+2025-08-19 15:27:58,587 - bot.bot - INFO - Connected to: Bruzz Only! (ID: 1399461383468351508)
+2025-08-19 15:27:58,587 - bot.bot - INFO - Connected to: Skijibidi Kingdom: New Rise (ID: 1401620741979504640)
+2025-08-19 15:27:58,587 - bot.bot - INFO - Connected to: Boys Only Server (ID: 1402536865130876928)
+2025-08-19 15:27:58,587 - bot.bot - INFO - Connected to: ALK Studios (ID: 1406705191809716354)
+2025-08-19 15:27:58,587 - bot.bot - INFO - Connected to: Kawaii Squad OMG (ID: 1407011728058744963)
+2025-08-19 15:27:58,587 - bot.bot - INFO - Connected to: The Galaxy Servers! (ID: 1407018461141536778)
+2025-08-19 15:28:37,342 - __main__ - INFO - Starting Discord bot with enhanced features...
+2025-08-19 15:28:37,778 - bot.bot - INFO - Initializing database...
+2025-08-19 15:28:37,781 - bot.database - INFO - All database tables created successfully
+2025-08-19 15:28:37,781 - bot.database - INFO - Database initialized successfully
+2025-08-19 15:28:37,782 - bot.bot - INFO - Loading cogs...
+2025-08-19 15:28:37,785 - bot.bot - INFO - Loaded cog: template
+2025-08-19 15:28:37,806 - bot.bot - INFO - Loaded cog: moderation
+2025-08-19 15:28:37,810 - bot.bot - INFO - Loaded cog: general
+2025-08-19 15:28:37,811 - bot.bot - INFO - Loaded cog: afk
+2025-08-19 15:28:37,812 - bot.bot - INFO - Loaded cog: admin
+2025-08-19 15:28:37,813 - bot.bot - INFO - Loaded cog: verification
+2025-08-19 15:28:37,948 - bot.bot - INFO - Loaded cog: music
+2025-08-19 15:28:37,950 - bot.bot - INFO - Loaded cog: fun
+2025-08-19 15:28:37,950 - bot.bot - INFO - Bot setup complete!
+2025-08-19 15:28:38,177 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: eaadbd100121509c149388ff918dc0b1).
+2025-08-19 15:28:40,233 - bot.bot - INFO - Bot is ready! Logged in as CONNECT KH2#9788
+2025-08-19 15:28:40,233 - bot.bot - INFO - Bot ID: 1401261269432144045
+2025-08-19 15:28:40,233 - bot.bot - INFO - Servers: 8
+2025-08-19 15:28:40,631 - bot.bot - INFO - Synced 13 slash commands
+2025-08-19 15:28:40,631 - bot.bot - INFO - Connected to: Alfie's club (ID: 1383871692887294063)
+2025-08-19 15:28:40,631 - bot.bot - INFO - Connected to: Silly Memes Club (ID: 1397555474563334267)
+2025-08-19 15:28:40,631 - bot.bot - INFO - Connected to: Bruzz Only! (ID: 1399461383468351508)
+2025-08-19 15:28:40,631 - bot.bot - INFO - Connected to: Skijibidi Kingdom: New Rise (ID: 1401620741979504640)
+2025-08-19 15:28:40,631 - bot.bot - INFO - Connected to: Boys Only Server (ID: 1402536865130876928)
+2025-08-19 15:28:40,632 - bot.bot - INFO - Connected to: ALK Studios (ID: 1406705191809716354)
+2025-08-19 15:28:40,632 - bot.bot - INFO - Connected to: Kawaii Squad OMG (ID: 1407011728058744963)
+2025-08-19 15:28:40,632 - bot.bot - INFO - Connected to: The Galaxy Servers! (ID: 1407018461141536778)
+2025-08-19 15:33:03,443 - __main__ - INFO - Starting Discord bot with enhanced features...
+2025-08-19 15:33:03,868 - bot.bot - INFO - Initializing database...
+2025-08-19 15:33:03,870 - bot.database - INFO - All database tables created successfully
+2025-08-19 15:33:03,870 - bot.database - INFO - Database initialized successfully
+2025-08-19 15:33:03,870 - bot.bot - INFO - Loading cogs...
+2025-08-19 15:33:03,874 - bot.bot - INFO - Loaded cog: template
+2025-08-19 15:33:03,898 - bot.bot - INFO - Loaded cog: moderation
+2025-08-19 15:33:03,900 - bot.bot - INFO - Loaded cog: general
+2025-08-19 15:33:03,901 - bot.bot - INFO - Loaded cog: afk
+2025-08-19 15:33:03,903 - bot.bot - INFO - Loaded cog: admin
+2025-08-19 15:33:03,904 - bot.bot - INFO - Loaded cog: verification
+2025-08-19 15:33:04,035 - bot.bot - INFO - Loaded cog: music
+2025-08-19 15:33:04,038 - bot.bot - INFO - Loaded cog: fun
+2025-08-19 15:33:04,038 - bot.bot - INFO - Bot setup complete!
+2025-08-19 15:33:04,901 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 0c8c980d6bd56bcaeb507c5162a34f49).
+2025-08-19 15:33:06,937 - bot.bot - INFO - Bot is ready! Logged in as CONNECT KH2#9788
+2025-08-19 15:33:06,937 - bot.bot - INFO - Bot ID: 1401261269432144045
+2025-08-19 15:33:06,937 - bot.bot - INFO - Servers: 8
+2025-08-19 15:33:07,378 - bot.bot - INFO - Synced 14 slash commands
+2025-08-19 15:33:07,378 - bot.bot - INFO - Connected to: Alfie's club (ID: 1383871692887294063)
+2025-08-19 15:33:07,378 - bot.bot - INFO - Connected to: Silly Memes Club (ID: 1397555474563334267)
+2025-08-19 15:33:07,378 - bot.bot - INFO - Connected to: Bruzz Only! (ID: 1399461383468351508)
+2025-08-19 15:33:07,378 - bot.bot - INFO - Connected to: Skijibidi Kingdom: New Rise (ID: 1401620741979504640)
+2025-08-19 15:33:07,378 - bot.bot - INFO - Connected to: Boys Only Server (ID: 1402536865130876928)
+2025-08-19 15:33:07,379 - bot.bot - INFO - Connected to: ALK Studios (ID: 1406705191809716354)
+2025-08-19 15:33:07,379 - bot.bot - INFO - Connected to: Kawaii Squad OMG (ID: 1407011728058744963)
+2025-08-19 15:33:07,379 - bot.bot - INFO - Connected to: The Galaxy Servers! (ID: 1407018461141536778)
+2025-08-19 15:35:28,717 - __main__ - INFO - Starting Discord bot with enhanced features...
+2025-08-19 15:35:29,160 - bot.bot - INFO - Initializing database...
+2025-08-19 15:35:29,162 - bot.database - INFO - All database tables created successfully
+2025-08-19 15:35:29,162 - bot.database - INFO - Database initialized successfully
+2025-08-19 15:35:29,162 - bot.bot - INFO - Loading cogs...
+2025-08-19 15:35:29,166 - bot.bot - INFO - Loaded cog: template
+2025-08-19 15:35:29,170 - bot.bot - INFO - Loaded cog: moderation
+2025-08-19 15:35:29,186 - bot.bot - INFO - Loaded cog: general
+2025-08-19 15:35:29,187 - bot.bot - INFO - Loaded cog: afk
+2025-08-19 15:35:29,188 - bot.bot - INFO - Loaded cog: admin
+2025-08-19 15:35:29,189 - bot.bot - INFO - Loaded cog: verification
+2025-08-19 15:35:29,319 - bot.bot - INFO - Loaded cog: music
+2025-08-19 15:35:29,321 - bot.bot - INFO - Loaded cog: fun
+2025-08-19 15:35:29,321 - bot.bot - INFO - Bot setup complete!
+2025-08-19 15:35:29,557 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: f5e1aa2c496ab46d7544a6f7b6cc49a9).
+2025-08-19 15:37:23,810 - __main__ - INFO - Starting Discord bot with enhanced features...
+2025-08-19 15:37:24,442 - bot.bot - INFO - Initializing database...
+2025-08-19 15:37:24,444 - bot.database - INFO - All database tables created successfully
+2025-08-19 15:37:24,445 - bot.database - INFO - Database initialized successfully
+2025-08-19 15:37:24,445 - bot.bot - INFO - Loading cogs...
+2025-08-19 15:37:24,449 - bot.bot - INFO - Loaded cog: template
+2025-08-19 15:37:24,452 - bot.bot - INFO - Loaded cog: moderation
+2025-08-19 15:37:24,471 - bot.bot - INFO - Loaded cog: general
+2025-08-19 15:37:24,472 - bot.bot - INFO - Loaded cog: afk
+2025-08-19 15:37:24,473 - bot.bot - INFO - Loaded cog: admin
+2025-08-19 15:37:24,474 - bot.bot - INFO - Loaded cog: verification
+2025-08-19 15:37:24,650 - bot.bot - INFO - Loaded cog: music
+2025-08-19 15:37:24,653 - bot.bot - INFO - Loaded cog: fun
+2025-08-19 15:37:24,653 - bot.bot - INFO - Bot setup complete!
+2025-08-19 15:37:24,929 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 0580595b9758f5442feb5435f7c42a77).
+2025-08-19 15:37:26,985 - bot.bot - INFO - Bot is ready! Logged in as CONNECT KH2#9788
+2025-08-19 15:37:26,985 - bot.bot - INFO - Bot ID: 1401261269432144045
+2025-08-19 15:37:26,985 - bot.bot - INFO - Servers: 8
+2025-08-19 15:37:27,192 - bot.bot - INFO - Synced 14 slash commands
+2025-08-19 15:37:27,192 - bot.bot - INFO - Connected to: Alfie's club (ID: 1383871692887294063)
+2025-08-19 15:37:27,192 - bot.bot - INFO - Connected to: Silly Memes Club (ID: 1397555474563334267)
+2025-08-19 15:37:27,192 - bot.bot - INFO - Connected to: Bruzz Only! (ID: 1399461383468351508)
+2025-08-19 15:37:27,192 - bot.bot - INFO - Connected to: Skijibidi Kingdom: New Rise (ID: 1401620741979504640)
+2025-08-19 15:37:27,192 - bot.bot - INFO - Connected to: Boys Only Server (ID: 1402536865130876928)
+2025-08-19 15:37:27,193 - bot.bot - INFO - Connected to: ALK Studios (ID: 1406705191809716354)
+2025-08-19 15:37:27,193 - bot.bot - INFO - Connected to: Kawaii Squad OMG (ID: 1407011728058744963)
+2025-08-19 15:37:27,193 - bot.bot - INFO - Connected to: The Galaxy Servers! (ID: 1407018461141536778)
+2025-08-19 15:44:20,356 - __main__ - INFO - Starting Discord bot with enhanced features...
+2025-08-19 15:44:20,828 - bot.bot - INFO - Initializing database...
+2025-08-19 15:44:20,850 - bot.database - INFO - All database tables created successfully
+2025-08-19 15:44:20,850 - bot.database - INFO - Database initialized successfully
+2025-08-19 15:44:20,850 - bot.bot - INFO - Loading cogs...
+2025-08-19 15:44:20,853 - bot.bot - INFO - Loaded cog: template
+2025-08-19 15:44:20,887 - bot.bot - INFO - Loaded cog: moderation
+2025-08-19 15:44:20,891 - bot.bot - INFO - Loaded cog: general
+2025-08-19 15:44:20,892 - bot.bot - INFO - Loaded cog: afk
+2025-08-19 15:44:20,895 - bot.bot - INFO - Loaded cog: admin
+2025-08-19 15:44:20,897 - bot.bot - INFO - Loaded cog: verification
+2025-08-19 15:44:21,061 - bot.bot - INFO - Loaded cog: music
+2025-08-19 15:44:21,064 - bot.bot - INFO - Loaded cog: fun
+2025-08-19 15:44:21,064 - bot.bot - INFO - Bot setup complete!
+2025-08-19 15:44:21,322 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: fd51b4e0a7c43dec74d8b7df63e4ba21).
+2025-08-19 15:44:23,354 - bot.bot - INFO - Bot is ready! Logged in as CONNECT KH2#9788
+2025-08-19 15:44:23,354 - bot.bot - INFO - Bot ID: 1401261269432144045
+2025-08-19 15:44:23,354 - bot.bot - INFO - Servers: 8
+2025-08-19 15:44:24,907 - bot.bot - INFO - Synced 14 slash commands
+2025-08-19 15:44:24,908 - bot.bot - INFO - Connected to: Alfie's club (ID: 1383871692887294063)
+2025-08-19 15:44:24,909 - bot.bot - INFO - Connected to: Silly Memes Club (ID: 1397555474563334267)
+2025-08-19 15:44:24,909 - bot.bot - INFO - Connected to: Bruzz Only! (ID: 1399461383468351508)
+2025-08-19 15:44:24,909 - bot.bot - INFO - Connected to: Skijibidi Kingdom: New Rise (ID: 1401620741979504640)
+2025-08-19 15:44:24,909 - bot.bot - INFO - Connected to: Boys Only Server (ID: 1402536865130876928)
+2025-08-19 15:44:24,910 - bot.bot - INFO - Connected to: ALK Studios (ID: 1406705191809716354)
+2025-08-19 15:44:24,910 - bot.bot - INFO - Connected to: Kawaii Squad OMG (ID: 1407011728058744963)
+2025-08-19 15:44:24,910 - bot.bot - INFO - Connected to: The Galaxy Servers! (ID: 1407018461141536778)
+2025-08-19 15:45:01,850 - __main__ - INFO - Starting Discord bot with enhanced features...
+2025-08-19 15:45:02,399 - bot.bot - INFO - Initializing database...
+2025-08-19 15:45:02,402 - bot.database - INFO - All database tables created successfully
+2025-08-19 15:45:02,403 - bot.database - INFO - Database initialized successfully
+2025-08-19 15:45:02,403 - bot.bot - INFO - Loading cogs...
+2025-08-19 15:45:02,406 - bot.bot - INFO - Loaded cog: template
+2025-08-19 15:45:02,411 - bot.bot - INFO - Loaded cog: moderation
+2025-08-19 15:45:02,431 - bot.bot - INFO - Loaded cog: general
+2025-08-19 15:45:02,432 - bot.bot - INFO - Loaded cog: afk
+2025-08-19 15:45:02,434 - bot.bot - INFO - Loaded cog: admin
+2025-08-19 15:45:02,436 - bot.bot - INFO - Loaded cog: verification
+2025-08-19 15:45:02,597 - bot.bot - INFO - Loaded cog: music
+2025-08-19 15:45:02,600 - bot.bot - INFO - Loaded cog: fun
+2025-08-19 15:45:02,600 - bot.bot - INFO - Bot setup complete!
+2025-08-19 15:45:02,803 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 1a7ee25efd6a91c34fa3a8b6b1333b4b).
+2025-08-19 15:45:04,845 - bot.bot - INFO - Bot is ready! Logged in as CONNECT KH2#9788
+2025-08-19 15:45:04,845 - bot.bot - INFO - Bot ID: 1401261269432144045
+2025-08-19 15:45:04,845 - bot.bot - INFO - Servers: 8
+2025-08-19 15:45:06,507 - bot.bot - INFO - Synced 14 slash commands
+2025-08-19 15:45:06,507 - bot.bot - INFO - Connected to: Alfie's club (ID: 1383871692887294063)
+2025-08-19 15:45:06,507 - bot.bot - INFO - Connected to: Silly Memes Club (ID: 1397555474563334267)
+2025-08-19 15:45:06,508 - bot.bot - INFO - Connected to: Bruzz Only! (ID: 1399461383468351508)
+2025-08-19 15:45:06,508 - bot.bot - INFO - Connected to: Skijibidi Kingdom: New Rise (ID: 1401620741979504640)
+2025-08-19 15:45:06,508 - bot.bot - INFO - Connected to: Boys Only Server (ID: 1402536865130876928)
+2025-08-19 15:45:06,508 - bot.bot - INFO - Connected to: ALK Studios (ID: 1406705191809716354)
+2025-08-19 15:45:06,508 - bot.bot - INFO - Connected to: Kawaii Squad OMG (ID: 1407011728058744963)
+2025-08-19 15:45:06,508 - bot.bot - INFO - Connected to: The Galaxy Servers! (ID: 1407018461141536778)
+2025-08-19 15:56:00,687 - __main__ - INFO - Starting Discord bot with enhanced features...
+2025-08-19 15:56:01,260 - bot.bot - INFO - Initializing database...
+2025-08-19 15:56:01,263 - bot.database - INFO - All database tables created successfully
+2025-08-19 15:56:01,264 - bot.database - INFO - Database initialized successfully
+2025-08-19 15:56:01,265 - bot.bot - INFO - Loading cogs...
+2025-08-19 15:56:01,274 - bot.bot - INFO - Loaded cog: template
+2025-08-19 15:56:01,301 - bot.bot - INFO - Loaded cog: moderation
+2025-08-19 15:56:01,303 - bot.bot - INFO - Loaded cog: general
+2025-08-19 15:56:01,304 - bot.bot - INFO - Loaded cog: afk
+2025-08-19 15:56:01,307 - bot.bot - INFO - Loaded cog: admin
+2025-08-19 15:56:01,309 - bot.bot - INFO - Loaded cog: verification
+2025-08-19 15:56:01,527 - bot.bot - INFO - Loaded cog: music
+2025-08-19 15:56:01,532 - bot.bot - INFO - Loaded cog: fun
+2025-08-19 15:56:01,532 - bot.bot - INFO - Bot setup complete!
+2025-08-19 15:56:01,896 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: c7baf82a32a46712d5b5afdcbc2f9bb1).
+2025-08-19 15:56:04,010 - bot.bot - INFO - Bot is ready! Logged in as CONNECT KH2#9788
+2025-08-19 15:56:04,010 - bot.bot - INFO - Bot ID: 1401261269432144045
+2025-08-19 15:56:04,010 - bot.bot - INFO - Servers: 8
+2025-08-19 15:56:04,179 - bot.bot - INFO - Synced 14 slash commands
+2025-08-19 15:56:04,180 - bot.bot - INFO - Connected to: Alfie's club (ID: 1383871692887294063)
+2025-08-19 15:56:04,180 - bot.bot - INFO - Connected to: Silly Memes Club (ID: 1397555474563334267)
+2025-08-19 15:56:04,180 - bot.bot - INFO - Connected to: Bruzz Only! (ID: 1399461383468351508)
+2025-08-19 15:56:04,180 - bot.bot - INFO - Connected to: Skijibidi Kingdom: New Rise (ID: 1401620741979504640)
+2025-08-19 15:56:04,180 - bot.bot - INFO - Connected to: Boys Only Server (ID: 1402536865130876928)
+2025-08-19 15:56:04,180 - bot.bot - INFO - Connected to: ALK Studios (ID: 1406705191809716354)
+2025-08-19 15:56:04,180 - bot.bot - INFO - Connected to: Kawaii Squad OMG (ID: 1407011728058744963)
+2025-08-19 15:56:04,180 - bot.bot - INFO - Connected to: The Galaxy Servers! (ID: 1407018461141536778)
+2025-08-19 16:00:13,249 - __main__ - INFO - Starting Discord bot with enhanced features...
+2025-08-19 16:00:13,895 - bot.bot - INFO - Initializing database...
+2025-08-19 16:00:13,897 - bot.database - INFO - All database tables created successfully
+2025-08-19 16:00:13,898 - bot.database - INFO - Database initialized successfully
+2025-08-19 16:00:13,898 - bot.bot - INFO - Loading cogs...
+2025-08-19 16:00:13,901 - bot.bot - INFO - Loaded cog: template
+2025-08-19 16:00:13,905 - bot.bot - INFO - Loaded cog: moderation
+2025-08-19 16:00:13,922 - bot.bot - INFO - Loaded cog: general
+2025-08-19 16:00:13,923 - bot.bot - INFO - Loaded cog: afk
+2025-08-19 16:00:13,924 - bot.bot - INFO - Loaded cog: admin
+2025-08-19 16:00:13,925 - bot.bot - INFO - Loaded cog: verification
+2025-08-19 16:00:14,111 - bot.bot - INFO - Loaded cog: music
+2025-08-19 16:00:14,113 - bot.bot - INFO - Loaded cog: fun
+2025-08-19 16:00:14,113 - bot.bot - INFO - Bot setup complete!
+2025-08-19 16:00:14,369 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 6bc1c7c5495d11dd84c3b230c129ce21).
+2025-08-19 16:00:16,402 - bot.bot - INFO - Bot is ready! Logged in as CONNECT KH2#9788
+2025-08-19 16:00:16,402 - bot.bot - INFO - Bot ID: 1401261269432144045
+2025-08-19 16:00:16,403 - bot.bot - INFO - Servers: 8
+2025-08-19 16:00:17,011 - bot.bot - INFO - Synced 14 slash commands
+2025-08-19 16:00:17,011 - bot.bot - INFO - Connected to: Alfie's club (ID: 1383871692887294063)
+2025-08-19 16:00:17,012 - bot.bot - INFO - Connected to: Silly Memes Club (ID: 1397555474563334267)
+2025-08-19 16:00:17,012 - bot.bot - INFO - Connected to: Bruzz Only! (ID: 1399461383468351508)
+2025-08-19 16:00:17,012 - bot.bot - INFO - Connected to: Skijibidi Kingdom: New Rise (ID: 1401620741979504640)
+2025-08-19 16:00:17,012 - bot.bot - INFO - Connected to: Boys Only Server (ID: 1402536865130876928)
+2025-08-19 16:00:17,012 - bot.bot - INFO - Connected to: ALK Studios (ID: 1406705191809716354)
+2025-08-19 16:00:17,012 - bot.bot - INFO - Connected to: Kawaii Squad OMG (ID: 1407011728058744963)
+2025-08-19 16:00:17,012 - bot.bot - INFO - Connected to: The Galaxy Servers! (ID: 1407018461141536778)
+2025-08-19 16:00:22,877 - discord.client - ERROR - Ignoring exception in on_interaction
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/bot/bot.py", line 108, in on_interaction
+    await interaction.response.send_message(embed=embed, ephemeral=True)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/interactions.py", line 1004, in send_message
+    response = await adapter.create_interaction_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/webhook/async_.py", line 226, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 40060): Interaction has already been acknowledged.
+2025-08-19 16:07:45,970 - __main__ - INFO - Starting Discord bot with enhanced features...
+2025-08-19 16:07:46,375 - bot.bot - INFO - Initializing database...
+2025-08-19 16:07:46,378 - bot.database - INFO - All database tables created successfully
+2025-08-19 16:07:46,378 - bot.database - INFO - Database initialized successfully
+2025-08-19 16:07:46,378 - bot.bot - INFO - Loading cogs...
+2025-08-19 16:07:46,410 - bot.bot - INFO - Loaded cog: template
+2025-08-19 16:07:46,443 - bot.bot - INFO - Loaded cog: moderation
+2025-08-19 16:07:46,448 - bot.bot - INFO - Loaded cog: general
+2025-08-19 16:07:46,450 - bot.bot - INFO - Loaded cog: afk
+2025-08-19 16:07:46,455 - bot.bot - INFO - Loaded cog: admin
+2025-08-19 16:07:46,457 - bot.bot - INFO - Loaded cog: verification
+2025-08-19 16:07:46,748 - bot.bot - INFO - Loaded cog: music
+2025-08-19 16:07:46,756 - bot.bot - INFO - Loaded cog: fun
+2025-08-19 16:07:46,756 - bot.bot - INFO - Bot setup complete!
+2025-08-19 16:07:47,032 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 650cba38e8065a3436bd6d38404a2e6f).
+2025-08-19 16:07:49,079 - bot.bot - INFO - Bot is ready! Logged in as CONNECT KH2#9788
+2025-08-19 16:07:49,079 - bot.bot - INFO - Bot ID: 1401261269432144045
+2025-08-19 16:07:49,079 - bot.bot - INFO - Servers: 8
+2025-08-19 16:07:49,293 - bot.bot - INFO - Synced 12 slash commands
+2025-08-19 16:07:49,293 - bot.bot - INFO - Connected to: Alfie's club (ID: 1383871692887294063)
+2025-08-19 16:07:49,293 - bot.bot - INFO - Connected to: Silly Memes Club (ID: 1397555474563334267)
+2025-08-19 16:07:49,293 - bot.bot - INFO - Connected to: Bruzz Only! (ID: 1399461383468351508)
+2025-08-19 16:07:49,293 - bot.bot - INFO - Connected to: Skijibidi Kingdom: New Rise (ID: 1401620741979504640)
+2025-08-19 16:07:49,293 - bot.bot - INFO - Connected to: Boys Only Server (ID: 1402536865130876928)
+2025-08-19 16:07:49,293 - bot.bot - INFO - Connected to: ALK Studios (ID: 1406705191809716354)
+2025-08-19 16:07:49,294 - bot.bot - INFO - Connected to: Kawaii Squad OMG (ID: 1407011728058744963)
+2025-08-19 16:07:49,294 - bot.bot - INFO - Connected to: The Galaxy Servers! (ID: 1407018461141536778)
+2025-08-19 16:07:51,498 - __main__ - ERROR - ERROR: Discord token not found in environment variables!
+2025-08-19 16:07:51,498 - __main__ - ERROR - Please set DISCORD_TOKEN environment variable
+2025-08-19 16:07:51,498 - __main__ - ERROR - Example: export DISCORD_TOKEN='your_bot_token_here'
+2025-08-19 16:07:51,498 - __main__ - INFO - Bot shutdown complete
+2025-08-19 16:10:21,210 - __main__ - INFO - Starting Discord bot with enhanced features...
+2025-08-19 16:10:23,323 - bot.bot - INFO - Initializing database...
+2025-08-19 16:10:23,328 - bot.database - INFO - All database tables created successfully
+2025-08-19 16:10:23,328 - bot.database - INFO - Database initialized successfully
+2025-08-19 16:10:23,328 - bot.bot - INFO - Loading cogs...
+2025-08-19 16:10:23,333 - bot.bot - INFO - Loaded cog: template
+2025-08-19 16:10:23,362 - bot.bot - INFO - Loaded cog: moderation
+2025-08-19 16:10:23,364 - bot.bot - INFO - Loaded cog: general
+2025-08-19 16:10:23,365 - bot.bot - INFO - Loaded cog: afk
+2025-08-19 16:10:23,366 - bot.bot - INFO - Loaded cog: admin
+2025-08-19 16:10:23,368 - bot.bot - INFO - Loaded cog: verification
+2025-08-19 16:10:23,526 - bot.bot - INFO - Loaded cog: music
+2025-08-19 16:10:23,534 - bot.bot - INFO - Loaded cog: fun
+2025-08-19 16:10:23,536 - bot.bot - INFO - Bot setup complete!
+2025-08-19 16:10:23,921 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 8d5d6ff9cf3ba48ee26d7e78cddf0ecf).
+2025-08-19 16:10:25,960 - bot.bot - INFO - Bot is ready! Logged in as CONNECT KH2#9788
+2025-08-19 16:10:25,961 - bot.bot - INFO - Bot ID: 1401261269432144045
+2025-08-19 16:10:25,961 - bot.bot - INFO - Servers: 8
+2025-08-19 16:10:26,449 - bot.bot - INFO - Synced 5 slash commands
+2025-08-19 16:10:26,450 - bot.bot - INFO - Connected to: Alfie's club (ID: 1383871692887294063)
+2025-08-19 16:10:26,450 - bot.bot - INFO - Connected to: Silly Memes Club (ID: 1397555474563334267)
+2025-08-19 16:10:26,450 - bot.bot - INFO - Connected to: Bruzz Only! (ID: 1399461383468351508)
+2025-08-19 16:10:26,450 - bot.bot - INFO - Connected to: Skijibidi Kingdom: New Rise (ID: 1401620741979504640)
+2025-08-19 16:10:26,450 - bot.bot - INFO - Connected to: Boys Only Server (ID: 1402536865130876928)
+2025-08-19 16:10:26,450 - bot.bot - INFO - Connected to: ALK Studios (ID: 1406705191809716354)
+2025-08-19 16:10:26,451 - bot.bot - INFO - Connected to: Kawaii Squad OMG (ID: 1407011728058744963)
+2025-08-19 16:10:26,451 - bot.bot - INFO - Connected to: The Galaxy Servers! (ID: 1407018461141536778)
+2025-08-19 16:17:45,233 - discord.client - ERROR - Ignoring exception in on_interaction
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/bot/bot.py", line 90, in on_interaction
+    return await super().on_interaction(interaction)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'super' object has no attribute 'on_interaction'
+2025-08-19 16:18:00,272 - discord.client - ERROR - Ignoring exception in on_interaction
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/bot/bot.py", line 90, in on_interaction
+    return await super().on_interaction(interaction)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'super' object has no attribute 'on_interaction'
+2025-08-19 16:27:30,275 - bot.bot - INFO - Joined new guild: Avaite Studios 2.0 | AllPlay (ID: 1406393936007794838)
+2025-08-19 16:27:30,315 - bot.database - INFO - Created database entry for guild 1406393936007794838
+2025-08-19 16:28:19,296 - discord.client - ERROR - Ignoring exception in on_interaction
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/workspace/bot/bot.py", line 146, in on_interaction
+    return await super().on_interaction(interaction)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'super' object has no attribute 'on_interaction'
+2025-08-19 16:29:01,548 - __main__ - INFO - Starting Discord bot with enhanced features...
+2025-08-19 16:29:01,963 - bot.bot - INFO - Initializing database...
+2025-08-19 16:29:01,965 - bot.database - INFO - All database tables created successfully
+2025-08-19 16:29:01,965 - bot.database - INFO - Database initialized successfully
+2025-08-19 16:29:01,966 - bot.bot - INFO - Loading cogs...
+2025-08-19 16:29:01,968 - bot.bot - INFO - Loaded cog: template
+2025-08-19 16:29:01,971 - bot.bot - INFO - Loaded cog: moderation
+2025-08-19 16:29:01,990 - bot.bot - INFO - Loaded cog: general
+2025-08-19 16:29:01,991 - bot.bot - INFO - Loaded cog: afk
+2025-08-19 16:29:01,992 - bot.bot - INFO - Loaded cog: admin
+2025-08-19 16:29:01,992 - bot.bot - INFO - Loaded cog: verification
+2025-08-19 16:29:02,144 - bot.bot - INFO - Loaded cog: music
+2025-08-19 16:29:02,152 - bot.bot - INFO - Loaded cog: fun
+2025-08-19 16:29:02,153 - bot.bot - INFO - Bot setup complete!
+2025-08-19 16:29:02,432 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 58d7fd9dd4c02162a9d928d1aa5e2ff5).
+2025-08-19 16:29:04,491 - bot.bot - INFO - Bot is ready! Logged in as CONNECT KH2#9788
+2025-08-19 16:29:04,491 - bot.bot - INFO - Bot ID: 1401261269432144045
+2025-08-19 16:29:04,491 - bot.bot - INFO - Servers: 9
+2025-08-19 16:29:04,698 - bot.bot - INFO - Synced 5 slash commands
+2025-08-19 16:29:04,699 - bot.bot - INFO - Connected to: Alfie's club (ID: 1383871692887294063)
+2025-08-19 16:29:04,699 - bot.bot - INFO - Connected to: Silly Memes Club (ID: 1397555474563334267)
+2025-08-19 16:29:04,699 - bot.bot - INFO - Connected to: Bruzz Only! (ID: 1399461383468351508)
+2025-08-19 16:29:04,699 - bot.bot - INFO - Connected to: Skijibidi Kingdom: New Rise (ID: 1401620741979504640)
+2025-08-19 16:29:04,699 - bot.bot - INFO - Connected to: Boys Only Server (ID: 1402536865130876928)
+2025-08-19 16:29:04,699 - bot.bot - INFO - Connected to: Avaite Studios 2.0 | AllPlay (ID: 1406393936007794838)
+2025-08-19 16:29:04,699 - bot.bot - INFO - Connected to: ALK Studios (ID: 1406705191809716354)
+2025-08-19 16:29:04,699 - bot.bot - INFO - Connected to: Kawaii Squad OMG (ID: 1407011728058744963)
+2025-08-19 16:29:04,699 - bot.bot - INFO - Connected to: The Galaxy Servers! (ID: 1407018461141536778)
+2025-08-19 16:29:16,773 - __main__ - INFO - Starting Discord bot with enhanced features...
+2025-08-19 16:29:17,239 - bot.bot - INFO - Initializing database...
+2025-08-19 16:29:17,240 - bot.database - INFO - All database tables created successfully
+2025-08-19 16:29:17,240 - bot.database - INFO - Database initialized successfully
+2025-08-19 16:29:17,241 - bot.bot - INFO - Loading cogs...
+2025-08-19 16:29:17,243 - bot.bot - INFO - Loaded cog: template
+2025-08-19 16:29:17,246 - bot.bot - INFO - Loaded cog: moderation
+2025-08-19 16:29:17,260 - bot.bot - INFO - Loaded cog: general
+2025-08-19 16:29:17,261 - bot.bot - INFO - Loaded cog: afk
+2025-08-19 16:29:17,262 - bot.bot - INFO - Loaded cog: admin
+2025-08-19 16:29:17,263 - bot.bot - INFO - Loaded cog: verification
+2025-08-19 16:29:17,406 - bot.bot - INFO - Loaded cog: music
+2025-08-19 16:29:17,408 - bot.bot - INFO - Loaded cog: fun
+2025-08-19 16:29:17,408 - bot.bot - INFO - Bot setup complete!
+2025-08-19 16:29:17,991 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 453d26c7e71f117b5abe0f444969add5).
+2025-08-19 16:29:20,053 - bot.bot - INFO - Bot is ready! Logged in as CONNECT KH2#9788
+2025-08-19 16:29:20,053 - bot.bot - INFO - Bot ID: 1401261269432144045
+2025-08-19 16:29:20,053 - bot.bot - INFO - Servers: 9
+2025-08-19 16:30:04,867 - bot.bot - INFO - Synced 5 slash commands
+2025-08-19 16:30:04,867 - bot.bot - INFO - Connected to: Alfie's club (ID: 1383871692887294063)
+2025-08-19 16:30:04,867 - bot.bot - INFO - Connected to: Silly Memes Club (ID: 1397555474563334267)
+2025-08-19 16:30:04,868 - bot.bot - INFO - Connected to: Bruzz Only! (ID: 1399461383468351508)
+2025-08-19 16:30:04,868 - bot.bot - INFO - Connected to: Skijibidi Kingdom: New Rise (ID: 1401620741979504640)
+2025-08-19 16:30:04,868 - bot.bot - INFO - Connected to: Boys Only Server (ID: 1402536865130876928)
+2025-08-19 16:30:04,868 - bot.bot - INFO - Connected to: Avaite Studios 2.0 | AllPlay (ID: 1406393936007794838)
+2025-08-19 16:30:04,868 - bot.bot - INFO - Connected to: ALK Studios (ID: 1406705191809716354)
+2025-08-19 16:30:04,868 - bot.bot - INFO - Connected to: Kawaii Squad OMG (ID: 1407011728058744963)
+2025-08-19 16:30:04,868 - bot.bot - INFO - Connected to: The Galaxy Servers! (ID: 1407018461141536778)
